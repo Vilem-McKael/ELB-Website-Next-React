@@ -1,0 +1,28 @@
+.bgGold:hover {
+    background-color: #D2912D;
+}
+
+.bgYellow:hover {
+    background-color: #D2AD25;
+    
+}
+
+.bgTerracotta:hover {
+    background-color: #A34726;
+}
+
+.bgTeal:hover {
+    background-color: #3E8483;
+}
+
+.bgGreen:hover {
+    background-color: #566632;
+}
+
+.bgBlue:hover {
+    background-color: #526693;
+}
+
+.bgDarkBlue:hover {
+    background-color: #263053;
+}

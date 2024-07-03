@@ -1,0 +1,257 @@
+/*!
+*    ______ _       _   _
+*    |  ____| |     | | (_)
+*    | |__  | | __ _| |_ _  ___ ___  _ __
+*    |  __| | |/ _` | __| |/ __/ _ \| '_ \
+*    | |    | | (_| | |_| | (_| (_) | | | |
+*    |_|    |_|\__,_|\__|_|\___\___/|_| |_|
+*
+*         https://www.flaticon.com
+*/
+
+@font-face {
+    font-family: "flaticon_elb_website";
+    src: url("./flaticon_elb_website.woff2?4b369cd89d482b5d7035c6c1a8adbd76") format("woff2"),
+url("./flaticon_elb_website.woff?4b369cd89d482b5d7035c6c1a8adbd76") format("woff"),
+url("./flaticon_elb_website.eot?4b369cd89d482b5d7035c6c1a8adbd76#iefix") format("embedded-opentype"),
+url("./flaticon_elb_website.ttf?4b369cd89d482b5d7035c6c1a8adbd76") format("truetype"),
+url("./flaticon_elb_website.svg?4b369cd89d482b5d7035c6c1a8adbd76#flaticon_elb_website") format("svg")
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_elb_website !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-home:before {
+    content: "\f101";
+}
+.flaticon-home-1:before {
+    content: "\f102";
+}
+.flaticon-home-2:before {
+    content: "\f103";
+}
+.flaticon-home-icon-silhouette:before {
+    content: "\f104";
+}
+.flaticon-information:before {
+    content: "\f105";
+}
+.flaticon-info:before {
+    content: "\f106";
+}
+.flaticon-information-button:before {
+    content: "\f107";
+}
+.flaticon-about:before {
+    content: "\f108";
+}
+.flaticon-list:before {
+    content: "\f109";
+}
+.flaticon-clipboard:before {
+    content: "\f10a";
+}
+.flaticon-to-do-list:before {
+    content: "\f10b";
+}
+.flaticon-to-do-list-1:before {
+    content: "\f10c";
+}
+.flaticon-files:before {
+    content: "\f10d";
+}
+.flaticon-list-1:before {
+    content: "\f10e";
+}
+.flaticon-speak:before {
+    content: "\f10f";
+}
+.flaticon-contact-mail:before {
+    content: "\f110";
+}
+.flaticon-contact-us:before {
+    content: "\f111";
+}
+.flaticon-email:before {
+    content: "\f112";
+}
+.flaticon-email-1:before {
+    content: "\f113";
+}
+.flaticon-email-2:before {
+    content: "\f114";
+}
+.flaticon-follow-up:before {
+    content: "\f115";
+}
+.flaticon-home-3:before {
+    content: "\f116";
+}
+.flaticon-home-4:before {
+    content: "\f117";
+}
+.flaticon-info-1:before {
+    content: "\f118";
+}
+.flaticon-about-1:before {
+    content: "\f119";
+}
+.flaticon-image-gallery:before {
+    content: "\f11a";
+}
+.flaticon-image-gallery-1:before {
+    content: "\f11b";
+}
+.flaticon-portrait:before {
+    content: "\f11c";
+}
+.flaticon-person:before {
+    content: "\f11d";
+}
+.flaticon-person-1:before {
+    content: "\f11e";
+}
+.flaticon-personal-information:before {
+    content: "\f11f";
+}
+.flaticon-review:before {
+    content: "\f120";
+}
+.flaticon-youtube:before {
+    content: "\f121";
+}
+.flaticon-video:before {
+    content: "\f122";
+}
+.flaticon-video-1:before {
+    content: "\f123";
+}
+.flaticon-online-video:before {
+    content: "\f124";
+}
+.flaticon-cam-recorder:before {
+    content: "\f125";
+}
+.flaticon-volume:before {
+    content: "\f126";
+}
+.flaticon-sound:before {
+    content: "\f127";
+}
+.flaticon-volume-1:before {
+    content: "\f128";
+}
+.flaticon-volume-2:before {
+    content: "\f129";
+}
+.flaticon-audio-waves:before {
+    content: "\f12a";
+}
+.flaticon-sound-bars:before {
+    content: "\f12b";
+}
+.flaticon-microphone:before {
+    content: "\f12c";
+}
+.flaticon-microphone-1:before {
+    content: "\f12d";
+}
+.flaticon-play-button-arrowhead:before {
+    content: "\f12e";
+}
+.flaticon-play-button:before {
+    content: "\f12f";
+}
+.flaticon-play:before {
+    content: "\f130";
+}
+.flaticon-pause:before {
+    content: "\f131";
+}
+.flaticon-pause-1:before {
+    content: "\f132";
+}
+.flaticon-pause-2:before {
+    content: "\f133";
+}
+.flaticon-pause-3:before {
+    content: "\f134";
+}
+.flaticon-stop-button:before {
+    content: "\f135";
+}
+.flaticon-stop:before {
+    content: "\f136";
+}
+.flaticon-stop-button-1:before {
+    content: "\f137";
+}
+.flaticon-right-arrow:before {
+    content: "\f138";
+}
+.flaticon-left-arrow:before {
+    content: "\f139";
+}
+.flaticon-back:before {
+    content: "\f13a";
+}
+.flaticon-arrow:before {
+    content: "\f13b";
+}
+.flaticon-right-arrow-1:before {
+    content: "\f13c";
+}
+.flaticon-next:before {
+    content: "\f13d";
+}
+.flaticon-next-1:before {
+    content: "\f13e";
+}
+.flaticon-back-1:before {
+    content: "\f13f";
+}
+.flaticon-more:before {
+    content: "\f140";
+}
+.flaticon-menu:before {
+    content: "\f141";
+}
+.flaticon-menu-1:before {
+    content: "\f142";
+}
+.flaticon-menu-2:before {
+    content: "\f143";
+}
+.flaticon-fast-forward:before {
+    content: "\f144";
+}
+.flaticon-double-arrow:before {
+    content: "\f145";
+}
+.flaticon-fast-forward-1:before {
+    content: "\f146";
+}
+.flaticon-fast-forward-media-control-button:before {
+    content: "\f147";
+}
+.flaticon-rewind-button:before {
+    content: "\f148";
+}
+.flaticon-rewind-symbol:before {
+    content: "\f149";
+}
+.flaticon-rewind:before {
+    content: "\f14a";
+}
+.flaticon-rewind-1:before {
+    content: "\f14b";
+}
+
