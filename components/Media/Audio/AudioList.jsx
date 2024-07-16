@@ -5,11 +5,13 @@ import { HashLink } from 'react-router-hash-link'
 export default function AudioList({updateSelectedAudioIndex, player, handleSetPlayer, handleSetTimeDisplay}) {
 
     const handleOnClick = useCallback((index) => {
-        player.stop()
-        handleSetPlayer(null)
+        if (player) {
+            player.stop()
+            handleSetPlayer(null)
+        }
         updateSelectedAudioIndex(index)
         handleSetTimeDisplay('0:00')
-    })
+    }, [])
 
   return (
     <table className='h-full w-full font-barlow justify-start sm:w-[640px] lg:w-[1000px] border-t mt-16 border-black'>

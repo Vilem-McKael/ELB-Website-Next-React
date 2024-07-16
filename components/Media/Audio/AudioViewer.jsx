@@ -23,6 +23,7 @@ export default function AudioViewer({selectedAudioIndex, updateSelectedAudioInde
     // SET SELECTED AUDIO TO AUDIO AT INDEX
     useEffect(() => {
         setSelectedAudio(audioData[selectedAudioIndex])
+        handleStop()
     }, [selectedAudioIndex])
 
     // PLAY FUNCTION (CREATES PLAYER & INTERVAL)

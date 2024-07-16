@@ -3,7 +3,7 @@ import WorkCard from './WorkCard'
 
 export default function SelectedWorks({works}) {
   return (
-    <div className='grid grid-cols-3 w-full sm:grid-cols-6 md:grid-cols-3 my-2 place-items-center'>
+    <div className='grid grid-cols-3 w-full sm:grid-cols-6 md:grid-cols-3 my-2 gap-y-2 place-items-center'>
         <WorkCard image={works[0].image} title={works[0].title}/>
         <WorkCard image={works[1].image} title={works[1].title}/>
         <WorkCard image={works[2].image} title={works[2].title}/>

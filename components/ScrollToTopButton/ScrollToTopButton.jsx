@@ -1,7 +1,12 @@
-import classNames from 'classnames'
-import React from 'react'
+'use client';
 
-export default function ScrollToTopButton(isShowingScrollToTop) {
+import React, { useEffect, useState } from 'react'
+
+import RightArrow from '@/public/icons/056-right-arrow.svg'
+
+export default function ScrollToTopButton() {
+
+    const [isShowingScrollToTop, setIsShowingScrollToTop] = useState(false)
 
     const handleOnClick = () => {
         window.scroll({
@@ -15,18 +20,39 @@ export default function ScrollToTopButton(isShowingScrollToTop) {
         return
     }
 
+    const updateIsShowingScrollToTop = () => {
+        if (!isShowingScrollToTop && window.scrollY > 200) {
+          setIsShowingScrollToTop(true)
+        } else if (window.scrollY < 200) {
+          setIsShowingScrollToTop(false)
+        }
+      }
+
+    useEffect(() => {
+
+        
+        const scrollListener = () => updateIsShowingScrollToTop()
+        window.addEventListener('scroll', scrollListener)
+        
+        return () => {
+            window.removeEventListener('scroll', scrollListener)
+        }
+
+    }, [])
+
   return (
-    <div className='fixed bottom-4 right-4'>
-        <div className={classNames(
-            'bg-teal4 text-light7 flex items-center justify-center h-[45px] w-[45px] pl-[6px] pb-[2px] rounded-full transition-opacity ease-in-out transform duration-300 ',
-            {
-                'opacity-100 visible scale-100 pointer-events-auto': isShowingScrollToTop,
-                'opacity-0 invisible scale-95 pointer-events-none' : !isShowingScrollToTop
-            }
-        )}
-        onClick={isShowingScrollToTop ? handleOnClick : doNothing}>
-            <i className='flaticon-right-arrow rotate-[-90deg] text-xl' />
+    <>
+    
+    {isShowingScrollToTop &&
+        <div className='fixed bottom-4 right-4 z-20'>
+            <button className={
+                'bg-gradient-to-b from-gold2/90 to-yellow3/70 text-light7 flex items-center justify-center h-[40px] w-[40px] pb-[2px] rounded-full transition-transform border-light7 border shadow-md shadow-black/50 scale-100 hover:scale-110'}
+            onClick={isShowingScrollToTop ? handleOnClick : doNothing}>
+                <RightArrow className='rotate-[-90deg] w-[20px] h-[20px] fill-light7' />
+            </button>
         </div>
-    </div>
+    }
+    
+    </>
   )
 }

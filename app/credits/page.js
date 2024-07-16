@@ -1,10 +1,10 @@
 import React, { useCallback, useEffect } from 'react'
 import { useState } from 'react'
 
-import { CreditCategory, AllMedia, FeaturedMedia } from '@/data/creditMedia'
-import AllMediaList from '@/components/Credits/AllMediaList'
-import FeaturedCreditsList from '@/components/Credits/FeaturedCreditsList'
-import Footer from '@/components/Footer/Footer'
+import { CreditCategory, AllMedia, FeaturedMedia } from '../../data/creditMedia'
+import AllMediaList from '../../components/Credits/AllMediaList'
+import FeaturedCreditsList from '../../components/Credits/FeaturedCreditsList'
+import Footer from '../../components/Footer/Footer'
 import { HashLink } from 'react-router-hash-link'
 
 

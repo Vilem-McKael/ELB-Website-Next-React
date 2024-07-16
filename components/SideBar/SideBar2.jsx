@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import SocialButton from './SocialButton/SocialButton'
+import SocialButton from '../SocialButton/SocialButton'
 import facebook from '../../assets/socialLogos/facebookLogo.png'
 import instagram from '../../assets/socialLogos/instagramLogo.png'
 import linkedIn from '../../assets/socialLogos/linkedInLogo.png'

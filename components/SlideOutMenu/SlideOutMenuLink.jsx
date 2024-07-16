@@ -1,11 +1,11 @@
 import React from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import { useRouter } from 'next/navigation';
 
 import '../NavBar/NavBar.css'
 
 export default function SlideOutMenuLink({title, to, iconName, tabColor, tabClass, currentPage, updateCurrentPage, updateIsShowingSlideOutMenu, screenSize, player, handleSetPlayer}) {
 
-  const navigate = useNavigate();
+  const router = useRouter();
 
     function handleOnClick() {
         updateIsShowingSlideOutMenu(false)
@@ -13,8 +13,11 @@ export default function SlideOutMenuLink({title, to, iconName, tabColor, tabClas
           player.stop()
           handleSetPlayer(null)
         }
-        updateCurrentPage(title)
-        navigate(to)
+        router.push(to)
+        window.scroll({
+          top: 0,
+          left: 0,
+        })
     }
     // className='flex flex-row items-center'
     

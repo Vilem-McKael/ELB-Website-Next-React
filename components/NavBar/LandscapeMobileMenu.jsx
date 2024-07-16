@@ -1,11 +1,11 @@
+'use client';
+
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 export default function LandscapeMobileMenu({currentPage, updateCurrentPage, isShowingSlideOutMenu, updateIsShowingSlideOutMenu}) {
 
     function handleOnCLick() {
-        let toggleVal = !isShowingSlideOutMenu
-        updateIsShowingSlideOutMenu(toggleVal)
+        updateIsShowingSlideOutMenu((prevValue) => !prevValue)
     }
 
   return (

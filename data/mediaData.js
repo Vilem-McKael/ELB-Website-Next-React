@@ -101,14 +101,14 @@ import edie93 from '/edieImages/The Voice Kids 2016.jpeg'
 import edie94 from '/edieImages/The Voice Kids Alicia Keys.jpeg'
 import edie95 from '/edieImages/The Voice kids choir ALicia.jpg'
 import edie96 from '/edieImages/elb&giorgio.png'
-import edie97 from '/public/edieImages/Gospel Choir Bev Hills Private party.jpg'
-import edie98 from '/public/edieImages/gwen-stefani-fix-you-the-voice-01 May 2, 2017 .jpg'
-import edie99 from '/public/edieImages/gwen-stefani-fix-you-the-voice-12 May 2, 2017 .jpg'
+import edie97 from '/edieImages/Gospel Choir Bev Hills Private party.jpg'
+import edie98 from '/edieImages/gwen-stefani-fix-you-the-voice-01 May 2, 2017 .jpg'
+import edie99 from '/edieImages/gwen-stefani-fix-you-the-voice-12 May 2, 2017 .jpg'
 import edie100 from '/edieImages/Ice Age Christmas Special Photo.jpg'
 import edie101 from '/edieImages/JHud Craig Zadan Tribute.jpg'
 import edie102 from '/edieImages/Jimmy Kimmel Kids Choir (1).jpg'
 import edie103 from '/edieImages/LaLa Land ELB & Amick HO Bowl.jpeg'
-import edie104 from '/public/edieImages/LaLa Land rehearsal pic.jpg'
+import edie104 from '/edieImages/LaLa Land rehearsal pic.jpg'
 import edie105 from '/edieImages/Shawn Mendes Session Pandemic at Sol 7.jpeg'
 import edie106 from '/edieImages/Sick New World 1 (1).jpeg'
 import edie107 from '/edieImages/Sick New World 2  (1).jpeg'
@@ -455,6 +455,10 @@ export const edieImages = [
     },
     {
         image: edie109,
+        description: ""
+    },
+    {
+        image: 'edieImages/TV James Corden Awolnation.jpg',
         description: ""
     }
 ]

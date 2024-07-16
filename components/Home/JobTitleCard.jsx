@@ -4,7 +4,7 @@ import {selectedWorks} from '../../data/homePageCredits.js'
 
 export default function JobTitleCard({bgColor, alignment, title, tag, description, image, imageDescription, featuredWorks, imageOrigin}) {
   return (
-    <div id={tag} className={`flex flex-row md:h-[560px] w-full max-w-[1200px]`}>
+    <div id={tag} className={`flex flex-row md:h-[560px] w-full max-w-[1100px]`}>
         {alignment === 'left' ?
 
         <div className='flex flex-col-reverse md:flex-row h-full w-full'> 
@@ -18,10 +18,10 @@ export default function JobTitleCard({bgColor, alignment, title, tag, descriptio
                     {/* ROLE TITLE AND DESCRIPTION */}
 
 
-                    <div className='text-4xl font-normal text-black px-4 py-2'>
+                    <div className='text-4xl font-normal text-black px-4 mb-8 mt-4 md:mt-8'>
                         {title}
                     </div>
-                    <div className='text-sm pb-4 text-justify'>
+                    <div className='text-sm pb-4 text-justify h-full flex items-start'>
                         {description}
                     </div>
 
@@ -36,7 +36,7 @@ export default function JobTitleCard({bgColor, alignment, title, tag, descriptio
             {/* FEATURED IMAGE */}
             <div className='w-full h-full' style={{backgroundColor: bgColor}}>
                 <div className='flex flex-col justify-evenly items-center w-full h-full'>
-                    <img src={image} className={`object-cover h-full w-full object-${imageOrigin}`}/>
+                <img src={image} className='object-cover h-full w-full' style={{transformOrigin: imageOrigin}}/>
                 </div>
             </div>
         </div>
@@ -48,7 +48,7 @@ export default function JobTitleCard({bgColor, alignment, title, tag, descriptio
             {/* FEATURED IMAGE */}
             <div className='w-full h-full' style={{backgroundColor: bgColor}}>
                 <div className='flex flex-col justify-evenly items-center w-full h-full'>
-                    <img src={image} className={`object-cover h-full w-full object-${imageOrigin}`}/>
+                    <img src={image} className='object-cover h-full w-full' style={{transformOrigin: imageOrigin}}/>
                 </div>
             </div>
 
@@ -59,10 +59,10 @@ export default function JobTitleCard({bgColor, alignment, title, tag, descriptio
 
                     {/* ROLE TITLE AND DESCRIPTION */}
 
-                    <div className='text-4xl font-normal text-black mt-8'>
+                    <div className='text-4xl font-normal text-black mb-8 mt-4 md:mt-8'>
                         {title}
                     </div>
-                    <div className='text-sm pb-4'>
+                    <div className='text-sm pb-4 h-full text-justify flex items-start'>
                         {description}
                     </div>
 

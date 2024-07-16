@@ -1,147 +1,79 @@
-import dune from '/creditImages/dune.jpeg'
-import hiddenFigures from '/creditImages/hiddenFigures.jpeg'
-import happyFeet from '/creditImages/happyFeet.jpeg'
-import solo from '/creditImages/solo.jpeg'
-import theLorax from '/creditImages/thelorax.jpeg'
-import migration from '/creditImages/migration.jpg'
-import encanto from '/creditImages/encanto.webp'
-
-import theSimpsons from '/creditImages/thesimpsons.webp'
-import rio from '/creditImages/rio.jpeg'
-import aretha from '/creditImages/arethaFranklin.jpeg'
-import codbo4 from '/creditImages/codBlackOps4.jpeg'
-import billWithers from '/creditImages/billWithers.webp'
-import whitneyHouston from '/creditImages/whitneyHouston.webp'
-
-import avatar2 from '/creditImages/avatar2.webp'
-import us from '/creditImages/us.jpeg'
-import nope from '/creditImages/nope.jpeg'
-import horton from '/creditImages/horton.avif'
-import portugalTheMan from '/creditImages/portugalTheMan.png'
-import theLionKing from '/creditImages/theLionKing2019.jpeg'
-import iceAge from '/creditImages/iceAge.jpeg'
-import harryStyles from '/creditImages/harryStyles.jpeg'
-
-import victorBorge from '/creditImages/victorBorge.jpeg'
-import generalHospital from '/creditImages/generalHospital.webp'
-
-import theVoice from '/creditImages/thevoice.webp'
-import overTheMoon from '/creditImages/overTheMoon2.jpeg'
-import happyFeet2 from '/creditImages/happyFeet2.jpeg'
-import theMonkeyKing from '/creditImages/theMonkeyKing.jpeg'
-import theCasagrandes from '/creditImages/theCasagrandes.jpg'
-import iceAge4 from '/creditImages/iceAge4.jpeg'
-import leo from '/creditImages/leo.jpeg'
-
-import shawnMendes from '/creditImages/shawnMendes2.jpeg'
-import jimmyKimmel from '/creditImages/jimmyKimmelLive.webp'
-import americanIdol from '/creditImages/americanIdol2.jpeg'
-import katyPerry from '/creditImages/pendulum.jpeg'
-import trueBlue from '/creditImages/trueBlue.jpg'
-import thirtySeconds from '/creditImages/walkOnWater.jpeg'
-
-import liteMeUp from '/creditImages/liteMeUp.jpg'
-
-
-
-
-
 export const selectedWorks = {
     "vocal-contractor": [
         {
-            image: dune,
+            image: '/creditImages/dune.jpeg',
             title: "Dune"
         },
         {
-            image: hiddenFigures,
+            image: '/creditImages/hiddenFigures.jpeg',
             title: "Hidden Figures"
         },
         {
-            image: happyFeet,
+            image: '/creditImages/happyFeet.jpeg',
             title: "Happy Feet"
         },
         {
-            image: solo,
+            image: '/creditImages/solo.jpeg',
             title: "Solo"
         },
         {
-            image: theLorax,
+            image: '/creditImages/thelorax.jpeg',
             title: "The Lorax"
         },
         {
-            image: migration,
+            image: '/creditImages/migration.jpg',
             title: "Migration"
         },
     ],
     "vocalist": [
         {
-            image: theSimpsons,
+            image: '/creditImages/thesimpsons.webp',
             title: "The Simpsons"
         },
         {
-            image: rio,
+            image: '/creditImages/rio.jpeg',
             title: "Rio"
         },
         {
-            image: aretha,
+            image: '/creditImages/arethaFranklin.jpeg',
             title: "Aretha Franklin"
         },
         {
-            image: codbo4,
+            image: '/creditImages/codBlackOps4.jpeg',
             title: "Call of Duty: Black Ops 4"
         },
         {
-            image: billWithers,
+            image: '/creditImages/billWithers.webp',
             title: "Bill Withers"
         },
         {
-            image: whitneyHouston,
+            image: '/creditImages/whitneyHouston.webp',
             title: "Whitney Houston"
         },
-        /*
-        OR
-        {
-            image: ,
-            title: "Madonna"
-        },
-        {
-            image: ,
-            title: "Aretha Franklin"
-        },
-        {
-            image: ,
-            title: "Bill Withers"
-        },
-        {
-            image: ,
-            title: "Michael Bublé"
-        }
-
-        */
     ],
     "conductor": [
         {
-            image: avatar2,
+            image: '/creditImages/avatar2.webp',
             title: "Avatar: The Way of Water"
         },
         {
-            image: us,
+            image: '/creditImages/us.jpeg',
             title: "Us"
         },
         {
-            image: iceAge,
+            image: '/creditImages/iceAge.jpeg',
             title: "The Ice Age Movies"
         },
         {
-            image: encanto,
+            image: '/creditImages/encanto.webp',
             title: "Encanto"
         },
         {
-            image: portugalTheMan,
+            image: '/creditImages/portugalTheMan.png',
             title: "Portugal. The Man"
         },
         {
-            image: harryStyles,
+            image: '/creditImages/harryStyles.jpeg',
             title: "Harry Styles"
         }
         // {
@@ -151,79 +83,79 @@ export const selectedWorks = {
     ],
     "musician": [
         {
-            image: hiddenFigures,
+            image: '/creditImages/hiddenFigures.jpeg',
             title: "Hidden Figures"
         },
         {
-            image: iceAge4,
+            image: '/creditImages/iceAge4.jpeg',
             title: "Ice Age: Continental Drift"
         },
         {
-            image: victorBorge,
+            image: '/creditImages/victorBorge.jpeg',
             title: "Victor Borge"
         },
         {
-            image: generalHospital,
+            image: '/creditImages/generalHospital.webp',
             title: "General Hospital"
         },
         {
-            image: theVoice,
+            image: '/creditImages/thevoice.webp',
             title: "The Voice - Natural Woman"
         },
         {
-            image: liteMeUp,
+            image: '/creditImages/liteMeUp.jpg',
             title: "Herbie Hancock (Vocoder, Motor Mouth)"
         },
     ],
     "vocal-coach": [
         {
-            image: theVoice,
+            image: '/creditImages/thevoice.webp',
             title: "The Voice"
         },
         {
-            image: overTheMoon,
+            image: '/creditImages/overTheMoon2.jpeg',
             title: "Over the Moon"
         },
         {
-            image: happyFeet2,
+            image: '/creditImages/happyFeet2.jpeg',
             title: "Happy Feet Two"
         },
         {
-            image: theMonkeyKing,
+            image: '/creditImages/theMonkeyKing.jpeg',
             title: "The Monkey King"
         },
         {
-            image: theCasagrandes,
+            image: '/creditImages/theCasagrandes.jpg',
             title: "The Casagrandes"
         },
         {
-            image: leo,
+            image: '/creditImages/leo.jpeg',
             title: "Leo"
         },
     ],
     "arranger": [
         {
-            image: shawnMendes,
+            image: '/creditImages/shawnMendes2.jpeg',
             title: "Shawn Mendes - Wonder"
         },
         {
-            image: jimmyKimmel,
+            image: '/creditImages/jimmyKimmelLive.webp',
             title: "Jimmy Kimmel Live!"
         },
         {
-            image: katyPerry,
+            image: '/creditImages/pendulum.jpeg',
             title: "Katy Perry - Pendulum"
         },
         {
-            image: americanIdol,
+            image: '/creditImages/americanIdol2.jpeg',
             title: "American Idol"
         },
         {
-            image: thirtySeconds,
+            image: '/creditImages/walkOnWater.jpeg',
             title: "30 Seconds to Mars - Walk on Water"
         },
         {
-            image: trueBlue,
+            image: '/creditImages/trueBlue.jpg',
             title: "Madonna - True Blue"
         },
     ]

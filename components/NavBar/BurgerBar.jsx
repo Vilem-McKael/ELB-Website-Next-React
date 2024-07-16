@@ -1,31 +1,31 @@
+'use client';
+
 import React from 'react'
-import { Link } from 'react-router-dom'
+import Link from 'next/link';
 
-import SocialButton from '../SideBar/SocialButton/SocialButton'
+import SocialButton from '../SocialButton/SocialButton'
 
-import facebook from '../../assets/socialLogos/facebookLogo.png'
-import instagram from '../../assets/socialLogos/instagramLogo.png'
-import linkedIn from '../../assets/socialLogos/linkedInLogo.png'
-import imdb from '../../assets/socialLogos/imdbLogo.webp'
+//  player, hadnleSetPlayer
 
-export default function BurgerBar({currentPage, updateCurrentPage, isShowingSlideOutMenu, updateIsShowingSlideOutMenu, player, hadnleSetPlayer}) {
+export default function BurgerBar({isShowingSlideOutMenu, updateIsShowingSlideOutMenu}) {
 
 
     function handleOnCLick() {
-        let toggleVal = !isShowingSlideOutMenu
-        updateIsShowingSlideOutMenu(toggleVal)
+        updateIsShowingSlideOutMenu((prevValue) => !prevValue)
     }
+
+    //  onClick={() => {
+    //     if (player) {
+    //         player.stop()
+    //         hadnleSetPlayer(null)
+    //     }
+    // }}
 
   return (
     <div id="top" className='flex w-full h-[150px] justify-between items-end fixed bg-light7 text-black pl-8 pr-4 z-50 border-b-[1px] border-black'>
             
         {/* LEFT SIDE - NAME AND DECORATIVE TILE */}
-        <Link to='/' className='flex flex-row items-end pb-4' onClick={() => {
-            if (player) {
-                player.stop()
-                hadnleSetPlayer(null)
-            }
-        }}>
+        <Link href='/' className='flex flex-row items-end pb-4'>
             <img src={'/deruta/deruta tile.webp'} className='w-[80px] h-[80px]'/>
             <div className='flex-col justify-center text-xl text-black text-leading bg-opacity-95 font-normal pl-4 w-full h-[80px]'>
                 <div className=''>
@@ -45,10 +45,10 @@ export default function BurgerBar({currentPage, updateCurrentPage, isShowingSlid
 
             {/* SOCIAL BUTTONS */}
             <div className='flex flex-row pb-3'>
-                <SocialButton to={"https://www.linkedin.com/in/edie-lehmann-boddicker-31625a14/"} logo={linkedIn}/>
-                <SocialButton to={"https://www.instagram.com/edielehbod/"} logo={instagram}/>
-                <SocialButton to={"https://www.facebook.com/e.lehbod"} logo={facebook}/>
-                <SocialButton to={"https://www.imdb.com/name/nm0090798/"} logo={imdb}/>
+                <SocialButton to={"https://www.linkedin.com/in/edie-lehmann-boddicker-31625a14/"} logo={'/socialLogos/linkedInLogo.png'}/>
+                <SocialButton to={"https://www.instagram.com/edielehbod/"} logo={'/socialLogos/instagramLogo.png'}/>
+                <SocialButton to={"https://www.facebook.com/e.lehbod"} logo={'/socialLogos/facebookLogo.png'}/>
+                <SocialButton to={"https://www.imdb.com/name/nm0090798/"} logo={'/socialLogos/imdbLogo.webp'}/>
             </div>
 
             {/* OPEN MENU BUTTON */}

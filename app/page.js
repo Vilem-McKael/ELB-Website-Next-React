@@ -1,5 +1,4 @@
 import React from 'react'
-import { HashLink } from 'react-router-hash-link'
 
 
 import HomeHeader from '@/components/Home/HomeHeader'
@@ -13,7 +12,7 @@ import RolesAndHighlights from '@/components/Home/RolesAndHighlights'
 import QuoteEndOfPage from '@/components/Home/QuoteEndOfPage'
 
 export default function HomePage() {
-    //  bg-[url('/pebbleBackground.jpeg')] bg-cover
+
   return (
     <div className="flex flex-col w-full items-center bg-light7">
         <HomeHeader />
@@ -22,9 +21,9 @@ export default function HomePage() {
         <FeaturedCredits />
         <StudioCollaborations />
         <QuoteEndOfPage />
-        <HashLink smooth to="/#home-header" className='text-black bg-gray-100 sm:hover:text-white snm:hover:bg-black w-full h-[80px] flex items-center justify-center border-black border-t-[1px]'>
+        {/* <HashLink smooth to="/#home-header" className='text-black bg-gray-100 sm:hover:text-white snm:hover:bg-black w-full h-[80px] flex items-center justify-center border-black border-t-[1px]'>
         Back to Top
-        </HashLink>
+        </HashLink> */}
         <Footer />
     </div>
   )

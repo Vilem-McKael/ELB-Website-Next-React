@@ -1,12 +1,21 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+'use client';
 
-export default function MobileBurgerMenu({currentPage, updateCurrentPage, isShowingSlideOutMenu, updateIsShowingSlideOutMenu, player, handleSetPlayer}) {
+import React from 'react'
+import Link from 'next/link';
+
+export default function MobileBurgerMenu({isShowingSlideOutMenu, updateIsShowingSlideOutMenu, player, handleSetPlayer}) {
 
     function handleOnCLick() {
         let toggleVal = !isShowingSlideOutMenu
         updateIsShowingSlideOutMenu(toggleVal)
     }
+
+    // onClick={() => {
+    //   if (player) {
+    //     player.stop()
+    //     handleSetPlayer(null)
+    //   }
+    // }}
 
   return (
     // <div id="top" className='flex w-full justify-start items-center relative bg-transparent text-black bg-light7 border-b-[1px]-black'>
@@ -15,12 +24,7 @@ export default function MobileBurgerMenu({currentPage, updateCurrentPage, isShow
     //     </div>
     // </div>//nice
     <div className='w-full h-[80px] bg-light7 fixed flex flex-row justify-between items-center px-2 z-50 border-b border-black'>
-      <Link to='/' className='flex flex-row items-end' onClick={() => {
-        if (player) {
-          player.stop()
-          handleSetPlayer(null)
-        }
-      }}>
+      <Link href='/' className='flex flex-row items-end'>
             <img src={'/deruta/deruta tile.webp'} className='w-[58px] h-[58px]'/>
             <div className='flex-col justify-end text-md text-black text-leading leading-[0.7] bg-opacity-95 font-normal pl-4 w-full h-[55px]'>
                 <div className=''>
@@ -34,8 +38,9 @@ export default function MobileBurgerMenu({currentPage, updateCurrentPage, isShow
                 </div>
             </div>
         </Link>
-      <div className='w-' onClick={handleOnCLick}>
-        <div className='bg-teal4 text-light7 px-2 pt-1 rounded-md'>
+      <div className='cursor-pointer mr-2' onClick={handleOnCLick}>
+        <div className='bg-teal4 text-light7 px-2 pt-1 rounded-md flex items-center'>
+          <div className='pb-1 pr-2 text-lg'>Menu</div>
           <i className='flaticon-menu-2 z-50 text-xl'></i>
         </div>
       </div>

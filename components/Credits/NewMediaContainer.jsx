@@ -5,7 +5,7 @@ export default function NewMediaContainer({image, title, work, roles}) {
     <div className='flex flex-col w-[180px] sm:w-[200px] md:w-[240px] justify-center items-center gap-[1px] font-medium'>
 
       {/* WORK IMAGE */}
-      <img src={image} className='w-[180px] h-[180px] sm:w-[200px] sm:h-[200px] md:w-[240px] md:h-[240px] object-cover sm:rounded-lg'/>
+      <img src={image} className='w-[180px] h-[180px] sm:w-[200px] sm:h-[200px] md:w-[240px] md:h-[240px] object-cover sm:rounded-lg shadow-md shadow-gray-500'/>
 
       {/* WORK DESCRIPTION */}
       <div className='py-4 w-[180px] sm:w-[200px] md:w-[240px] px-4 pb-4 font-zilla font-bold'>

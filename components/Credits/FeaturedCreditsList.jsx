@@ -9,7 +9,7 @@ export default function FeaturedCreditsList({selectedCategory, updateSelectedCat
     <div className='flex flex-col items-center'>
 
         {/* CREDIT CATEGORY SELECTOR */}
-        <div className='grid grid-cols-3 md:flex items-center sm:flex-row w-full justify-center my-8 gap-4 px-2'>
+        <div className='grid grid-cols-3 md:flex items-center sm:flex-row w-full justify-center mt-8 gap-4 px-2'>
             <CategoryButton title={CreditCategory.Artists} selectedCategory={selectedCategory} updateSelectedCategory={updateSelectedCategory} bgColor={'#CC9D20'}/>
             <CategoryButton title={CreditCategory.Composers} selectedCategory={selectedCategory} updateSelectedCategory={updateSelectedCategory} bgColor={'#BB602F'}/>
             <CategoryButton title={CreditCategory.Film} selectedCategory={selectedCategory} updateSelectedCategory={updateSelectedCategory} bgColor={'#A34726'}/>
@@ -19,7 +19,7 @@ export default function FeaturedCreditsList({selectedCategory, updateSelectedCat
         </div>
 
         {/* MEDIA CARDS FOR SELECTED CATEGORY */}
-        <div className='text-5xl mb-6 p-4 px-6 font-bold text-black border border-black rounded-lg'>
+        <div className='text-5xl mb-6 p-4 px-6 font-bold text-black  rounded-lg'>
           {selectedCategory}
         </div>
         <MediaGrid selectedCategory={selectedCategory} data={FeaturedMedia[selectedCategory]}/>

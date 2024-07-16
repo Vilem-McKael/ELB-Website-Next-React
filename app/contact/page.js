@@ -49,7 +49,7 @@ export default function ContactPage() {
       <div className='h-full w-full flex-col items-center'>
       {!hasSubmitted && <form className='flex flex-col items-center justify-center py-12 w-full px-8' name='contact' method='POST' data-netlify="true" onSubmit={handleSubmit}>
         <input type="hidden" name="form-name" value="contact" />
-        <div className='flex flex-col sm:flex-row sm:justify-between items-center gap-4 w-full mobileLandscape:w-[400px] sm:w-[600px] pb-4'>
+        <div className='flex flex-col sm:flex-row sm:justify-between items-center gap-4 w-full mobileLandscape:w-[400px] sm:w-[600px] md:w-[800px] pb-4'>
           <div className='flex w-full flex-col items-leading'>
             <label >
               Name
@@ -75,17 +75,17 @@ export default function ContactPage() {
             </input>
           </div>
         </div>
-        <div className='flex pt-4 sm:w-[600px]'>
+        <div className='flex pt-4 sm:w-[600px] md:w-[800px]'>
           <label className='pb-1 items'>
             Please leave your message below :
           </label>
         </div>
-        <textarea name='message' className='h-[200px] w-full mx-2 mobileLandscape:w-[400px] sm:h-[300px] sm:w-[600px] p-2 text-sm border-black  border-[1px]'>
+        <textarea name='message' className='h-[200px] w-full mx-2 mobileLandscape:w-[400px] sm:h-[300px] sm:w-[600px] md:w-[800px] p-2 text-sm border-black  border-[1px]'>
 
         </textarea>
-        <div className='flex w-full mobileLandscape:w-[400px] sm:w-[600px] justify-end items-center'>
+        <div className='flex w-full mobileLandscape:w-[400px] sm:w-[600px] md:w-[800px] justify-end items-center'>
           <button type='submit' className='h-[40px] bg-black text-white mt-2 p-2 rounded-lg transform hover:scale-110 duration-75'>
-            <i className='flaticon-email h-[20px] w-[20px] pr-2'></i>Send
+            <img src="/icons/018-email.svg" className='h-[20px] w-[20px] pr-2' />Send
           </button>
         </div>
       </form>}
