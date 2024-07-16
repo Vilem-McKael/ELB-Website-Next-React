@@ -9271,7 +9271,7 @@ export const FeaturedMedia = {
         },
         {
             title: "Tubular Bells 2 Live at Edinburgh Castle - Mike Oldfield",
-            img: 'creditImages/Tubular Bells 2 Live.jpg',
+            img: '/creditImages/Tubular Bells 2 Live.jpg',
             roles: [r.Performer, r.Vocalist, r.Contractor],
             notes: "",
             year: '',
