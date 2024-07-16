@@ -1,57 +1,21 @@
-import React, { useState } from 'react'
-import { NetlifyForm, Honeypot } from 'react-netlify-forms'
+import React from 'react'
 import Footer from '../../components/Footer/Footer'
 
 export default function ContactPage() {
 
-  const [hasSubmitted, setHasSubmitted] = useState(false)
-
-  const [formDetails, setFormDetails] = useState({
-    name: "",
-    email: "",
-    company: "",
-    message: ""
-  })
-
-  const handleSubmit = (event) => {
-    // event.preventDefault()
-
-    const contactForm = event.target;
-    const formData = new FormData(contactForm);
-    fetch('/contact', {
-      method: "POST",
-      headers: {"Content-Type": "application/x-www-form-urlencoded"},
-      body: new URLSearchParams(formData).toString()
-    })
-    .then(() => console.log("Form successfully submitted"))
-    .catch((error) => alert(error))
-
-    event.preventDefault()
-
-    setHasSubmitted(true)
-  }
-
-  // document.querySelector("form").addEventListener("submit", handleSubmit)
-
-  const handleChange = (event) => {
-    setFormDetails({...formDetails, [event.target.name]: event.target.value})
-  }
 
   return (
     <div className='w-full sm:h-full flex flex-col items-center'>
-      <div className='text-center text-2xl sm:text-4xl mt-16 font-bold'>
-        Contact
-      </div>
       <div className='mx-16 mt-4 text-sm sm:text-base mobileLandscape:w-[400px] sm:w-[600px]'>
-        {hasSubmitted ? "Thank you for your message. Edie will be in touch with you as soon as possible!" : "Get in touch with Edie regarding vocal contracting, recording sessions, conducting, etc., or simply reach out to say hello!"}
+        "Get in touch with Edie regarding vocal contracting, recording sessions, conducting, etc., or simply reach out to say hello!"
       </div>
       
       <div className='h-full w-full flex-col items-center'>
-      {!hasSubmitted && <form className='flex flex-col items-center justify-center py-12 w-full px-8' name='contact' method='POST' data-netlify="true" onSubmit={handleSubmit}>
+      {!hasSubmitted && <form className='flex flex-col items-center justify-center py-12 w-full px-8' action='/contact/success' name='contact' method='POST' data-netlify="true" onSubmit={handleSubmit} netlify-honeypot="bot-field">
         <input type="hidden" name="form-name" value="contact" />
         <div className='flex flex-col sm:flex-row sm:justify-between items-center gap-4 w-full mobileLandscape:w-[400px] sm:w-[600px] md:w-[800px] pb-4'>
           <div className='flex w-full flex-col items-leading'>
-            <label >
+            <label htmlFor="name">
               Name
             </label>
             <input type='text' name='name' className='h-[40px] border-black border-[1px] p-2'>
@@ -59,7 +23,7 @@ export default function ContactPage() {
             </input>
           </div>
           <div className='flex w-full flex-col items-leading'>
-            <label>
+            <label htmlFor="email">
               E-Mail
             </label>
             <input type='text' name='email' className='h-[40px] border-black border-[1px] p-2'>
@@ -67,7 +31,7 @@ export default function ContactPage() {
             </input>
           </div>
           <div className='flex w-full flex-col items-leading'>
-            <label>
+            <label htmlFor='company'>
               Company / Org (optional)
             </label>
             <input type='text' name='company' className='h-[40px] border-black border-[1px] p-2'>
@@ -76,7 +40,7 @@ export default function ContactPage() {
           </div>
         </div>
         <div className='flex pt-4 sm:w-[600px] md:w-[800px]'>
-          <label className='pb-1 items'>
+          <label className='pb-1 items' htmlFor='message'>
             Please leave your message below :
           </label>
         </div>
@@ -95,46 +59,3 @@ export default function ContactPage() {
     </div>
   )
 }
-
-
-
-        {/* {/* <NetlifyForm name='contact' method='POST' action='/thanks' honeypotName='bot-field' netlify>
-      {({handleChange, success, error}) => (
-        <>
-          <div >
-            <label >
-              Name
-              <input type='text' name='name' value={formDetails.name} onChange={handleChange}/>
-            </label>
-            
-          </div>
-          <div >
-            <label>
-              E-Mail
-              <input type='text' name='email' value={formDetails.email} onChange={handleChange}/>
-            </label>
-            
-          </div>
-          <div>
-            <label>
-              Company / Org (optional)
-              <input type='text' name='company' value={formDetails.company} onChange={handleChange}/>
-            </label>
-            
-          </div>
-          <div>
-            <label>
-              Please leave your message below :
-              <textarea name='message' value={formDetails.message} onChange={handleChange}/>
-            </label>
-          </div>
-          
-            <div >
-            <button type='submit' onClick={handleSubmit}>
-              Send
-            </button>
-          </div>
-    //     </> */}
-      
-    //   )}
-    // </NetlifyForm> */}
