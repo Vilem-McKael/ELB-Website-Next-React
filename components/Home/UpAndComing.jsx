@@ -8,7 +8,7 @@ export default function UpAndComing() {
         <div className='sticky top-[80px] mobileLandscape:top-0 sm:top-[150px] w-full border-b-[8px] flex justify-center items-center px-4 py-4 sm:px-16 border-green bg-light7 mb-8 md:mb-16'>
             
             <div className='h-[20px] w-[20px] rounded-full border-green bg-green/50 border-[2px] mr-4'></div>
-            <div className='w-full max-w-[1100px] text-3xl sm:text-4xl text-start text-black font-normal'>
+            <div className='w-full max-w-[1000px] text-3xl sm:text-4xl text-start text-black font-normal'>
             Up & Coming / Current
             </div>
 

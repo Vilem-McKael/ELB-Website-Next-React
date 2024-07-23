@@ -42,7 +42,7 @@ export default function MediaSelector() {
     // <button onClick={() => handleUpdateSelectedMediaType('images')} className='h-[80px] flex flex-col items-center justify-center p-4 border-r border-black rounded-l-xl hover:text-4xl duration-150' style={{backgroundColor: selectedMediaType === 'images' ? 'rgb(86 102 50)' : '#A8A8A1', width: selectedMediaType === 'images' ? '160px' : '120px'}}></button>
 
   return (
-    <div id="media-selector" className="flex flex-row justify-center items-center text-3xl sm:mt-8 text-black sm:mx-2 w-[100vw] sm:w-[640px] z-10">
+    <div id="media-selector" className="flex flex-row justify-center items-center text-3xl mt-4 sm:mt-8 text-black sm:mx-2 w-[100vw] sm:w-[640px] z-10">
 
         {/* IMAGES BUTTON */}
         <button className={`w-[100px] flex flex-col sm:w-[120px] h-[60px] text-black text-xl sm:rounded-b-xl items-center justify-start origin-top group mx-4`} style={{ fontWeight: currentCategory === 'audio' ? 'normal' : 'lighter', boxSizing: 'border-box', maxWidth: '100%'}} onClick={(event) => handleOnClick(event, 'images')}>

@@ -16,7 +16,7 @@ export default function HomeHeader() {
 
   return (
     <div id="home-header" className='w-full md:h-[850px] sm:min-w-[640px] md:min-w-[800px] max-w-[1100px] flex flex-col items-center bg-light7'> {/* TOP OF PAGE */}
-        <div className='flex flex-col-reverse md:flex-row w-full h-full md:h-[650px] items-center justify-center'> {/* HEADER BODY // ROW */}
+        <div className='flex flex-col-reverse md:flex-row w-full h-full md:h-[650px] items-center justify-center mb-8'> {/* HEADER BODY // ROW */}
 
             {/* HEADSHOT & IMAGE DESCRIPTION // COL */}
             <div className='w-full h-full flex justify-center md:justify-end' style={{backgroundImage: "linear-gradient(135deg, rgba(80,102,50,0.6) 50%, rgba(217,217,196,1) 100%)"}}>
