@@ -1,9 +1,9 @@
 'use client';
 
 import ImageFullScreen from '@/components/Media/Images/ImageFullScreen'
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 
-export default function page({}) {
+export default function FullScreenPage({}) {
 
   const [imgIndex, setImgIndex] = useState(0)
 

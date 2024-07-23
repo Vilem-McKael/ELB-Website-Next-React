@@ -3,7 +3,7 @@
 import ImageFullScreen from '@/components/Media/Images/ImageFullScreen'
 import React, { useEffect, useState } from 'react'
 
-export default function page({params}) {
+export default function FullScreenSlugPage({params}) {
 
   const [imgIndex, setImgIndex] = useState(0)
 

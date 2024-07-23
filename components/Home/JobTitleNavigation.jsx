@@ -15,7 +15,7 @@ export default function JobTitleNavigation({selectedIndex}) {
   return (
     <div className='w-full'>
         <div className='w-full items-center p-8 text-center'>
-            Explore Edie's work across various roles:
+            Explore Edie&apos;s work across various roles:
         </div>
         <div className='flex w-full items-center justify-between h-[60px] text-center  border-darkBlue border-[1px]'>
             <HashLink smooth to='/#vocal-contractor' scroll={element => scrollWithNavbarOffset(element, 50)} className='flex w-full h-full items-center justify-center hover:bg-darkBlue text-black hover:text-white border-darkBlue border-r-[1px] cursor-pointer'>

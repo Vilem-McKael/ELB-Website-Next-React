@@ -47,7 +47,7 @@ export default function UpAndComing() {
                         Vocal Contractor, Conductor, & Vocalist
                     </div>
                     <div className='pt-2 text-md italic md:ml-8'>
-                        <span className='font-bold'>IMDB: </span>Many years after the reign of Caesar, a young ape goes on a journey that will lead him to question everything he's been taught about the past and make choices that will define a future for apes and humans alike.
+                        <span className='font-bold'>IMDB: </span>Many years after the reign of Caesar, a young ape goes on a journey that will lead him to question everything he&apos;s been taught about the past and make choices that will define a future for apes and humans alike.
                     </div>
                     <div className='md:ml-8 text-sm pt-4'>
                         In theaters nationwide on May 10, 2024
@@ -66,7 +66,7 @@ export default function UpAndComing() {
                         Vocal Contractor & Vocalist
                     </div>
                     <div className='pt-2 text-md italic md:ml-8'>
-                        <span className='font-bold'>IMDB: </span>When a rare pink and glitter-filled moment of fate makes Thelma the Pony's wish of being a unicorn come true, she rises to instant international pop-superstar stardom, but at an unexpected cost.
+                        <span className='font-bold'>IMDB: </span>When a rare pink and glitter-filled moment of fate makes Thelma the Pony&apos;s wish of being a unicorn come true, she rises to instant international pop-superstar stardom, but at an unexpected cost.
                     </div>
                     <div className='w-full md:ml-8 text-sm pt-4 flex flex-col lg:flex-row items-center md:items-start'>
                         <div className=''>Released on May 17, 2024, in theaters and on</div>
