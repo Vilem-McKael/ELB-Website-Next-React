@@ -4,10 +4,11 @@ import React from 'react'
 import Link from 'next/link';
 
 import SocialButton from '../SocialButton/SocialButton'
+import Menu from '@/public/icons/065-menu.svg'
 
 //  player, hadnleSetPlayer
 
-export default function BurgerBar({isShowingSlideOutMenu, updateIsShowingSlideOutMenu}) {
+export default function BurgerBar({updateIsShowingSlideOutMenu}) {
 
 
     function handleOnCLick() {
@@ -52,11 +53,11 @@ export default function BurgerBar({isShowingSlideOutMenu, updateIsShowingSlideOu
             </div>
 
             {/* OPEN MENU BUTTON */}
-            <div className='flex flex-row text-lg cursor-pointer pb-4 pr-4 group h-[40px]' onClick={handleOnCLick}>
-                <div className='transform group-hover:text-xl duration-100 origin-center'>
+            <div className='flex flex-row items-center text-lg cursor-pointer pb-4 pr-4 group h-[40px]' onClick={handleOnCLick}>
+                <div className='transform group-hover:text-xl duration-100 origin-center mr-1'>
                     Menu
                 </div>
-                <i className='flaticon-menu w-[24px] h-[24px] pl-2 pt-[2px]'></i>
+                <Menu className='transform group-hover:scale-110 duration-100 w-[16px] h-[16px] fill-black'/>
             </div>
         </div>
     </div>

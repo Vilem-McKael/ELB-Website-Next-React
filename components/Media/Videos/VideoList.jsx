@@ -1,6 +1,7 @@
+'use client';
+
 import React from 'react'
 import { videoData } from '../../../data/mediaData'
-import { animateScroll } from 'react-scroll'
 
 export default function VideoList({updateSelectedVideo}) {
 
@@ -16,28 +17,30 @@ export default function VideoList({updateSelectedVideo}) {
     }
 
   return (
-    <table className='w-full h-full font-barlow sm:w-[800px] lg:w-[1000px] border-t border-black'>
+    <>
+        <table className='w-full h-full font-barlow sm:w-[800px] lg:w-[1000px] border-t border-black'>
 
-        {/* VIDEO LIST */}
-        <tbody>
-        {videoData.map((video, index) => {
+            {/* VIDEO LIST */}
+            <tbody>
+            {videoData.map((video, index) => {
 
-            return <tr className='w-full h-full cursor-pointer border-b border-black hover:bg-black/10' key={index} onClick={() => handleOnClick(video)}>
+                return <tr className='w-full h-full cursor-pointer border-b border-black hover:bg-black/10' key={index} onClick={() => handleOnClick(video)}>
 
-                {/* TITLE */}
-                <td className='flex items-center h-full sm:w-[200px] md:w-[400px] text-sm font-medium p-8'>
-                    {/* <div className='w-[10px] h-[10px] bg-black rounded-full mr-4 shrink-0'></div>  */} {/* BULLET POINT */}
-                    <div className='text-md  sm:text-lg'>{video.title}</div>
-                </td>
+                    {/* TITLE */}
+                    <td className='flex items-center h-full sm:w-[200px] md:w-[400px] text-sm font-medium p-8'>
+                        {/* <div className='w-[10px] h-[10px] bg-black rounded-full mr-4 shrink-0'></div>  */} {/* BULLET POINT */}
+                        <div className='text-md  sm:text-lg'>{video.title}</div>
+                    </td>
 
-                {/* DESCRIPTION */}
-                <td className='p-2 h-full text-sm'>
-                    {video.description}
-                </td>
+                    {/* DESCRIPTION */}
+                    <td className='p-2 h-full text-sm'>
+                        {video.description}
+                    </td>
 
-            </tr>
-        })}
-        </tbody>
-    </table>
+                </tr>
+            })}
+            </tbody>
+        </table>
+    </>
   )
 }

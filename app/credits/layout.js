@@ -4,7 +4,7 @@ import { CreditCategory } from '../../data/creditMedia'
 import Footer from '../../components/Footer/Footer'
 import CategoryButton from '@/components/Credits/CategoryButton';
 
-export default function MediaLayout({children}) {
+export default function CreditsLayout({children}) {
 
   return (
     <div id="credits-top" className='flex flex-col w-full items-center'>

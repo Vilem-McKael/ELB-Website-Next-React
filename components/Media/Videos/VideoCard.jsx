@@ -1,63 +1,25 @@
-import React, { useEffect, useState } from 'react'
-import YouTube from 'react-youtube'
+'use client';
 
-export default function VideoCard({title, description, videoId, screenSize}) {
+import classes from './VideoCard.module.css'
 
-  const [opts, setOpts] = useState(null)
+import React from 'react'
+import ReactPlayer from 'react-player/youtube';
 
-    // ON PLAYER READY * REQUIRED FUNCTION FOR YOUTUBE API
-    const onPlayerReady = (event) => {
-        event.target.pauseVideo();
-    }
-
-    // YOUTUBE PLAYER OPTIONS
-    useEffect(() => {
-      console.log(screenSize)
-      if (screenSize === 'mobile' || screenSize === 'mobileLandscape') {
-        setOpts(
-          {
-            height: '300',
-            width: '350',
-            playerVars: {
-              autoplay: 1,
-            }
-          }
-        )
-      } else { 
-        setOpts(
-        {
-          height: '500',
-          width: '792',
-          playerVars: {
-            // https://developers.google.com/youtube/player_parameters
-            autoplay: 1,
-          },
-        })
-      }
-    }, [])
-
-    // opts = {
-    //     height: '500',
-    //     width: '792',
-    //     playerVars: {
-    //       // https://developers.google.com/youtube/player_parameters
-    //       autoplay: 1,
-    //     },
-    //   };
+export default function VideoCard({title, description, videoId}) {
 
   return (
-    <div className='flex flex-col items-center w-full sm:w-[640px] md:w-[800px] text-center bg-black'>
+    <div className='player-wrapper text-center bg-black relative aspect-video max-w-[800px] xl:max-w-[1000px]'>
 
         {/* VIDEO TITLE */}
-        <div className='w-full p-4 bg-black text-light7 sm:text-xl font-medium'>
+        <div className='w-full p-4 bg-black text-light7 sm:text-xl font-medium absolute top-0'>
             {title}
         </div>
 
         {/* YOUTUBE VIDEO */}
-        <YouTube videoId={videoId} opts={opts} onReady={onPlayerReady}/>
+        <ReactPlayer width='100%' height='100%' controls muted url={`https://www.youtube.com/watch?v=${videoId}`} config={{youtube: {showInfo: 1}}} />
 
         {/* VIDEO DESCRIPTION */}
-        <div className='w-full p-2 bg-gray-700 text-light7 text-sm font-barlow'>
+        <div className='w-full p-2 bg-gray-700 text-light7 text-sm font-barlow abolute bottom-0'>
             {description}
         </div>
     </div>

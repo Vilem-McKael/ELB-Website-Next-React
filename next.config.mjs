@@ -26,6 +26,21 @@ const nextConfig = {
         return config;
     },
 
+    redirects: async () => {
+        return [
+            {
+                source: '/media',
+                destination: '/media/images',
+                permanent: false
+            },
+            {
+                source: '/credits',
+                destination: '/credits/artists',
+                permanent: false
+            }
+        ]
+    }
+
     // ...other config
 };
 

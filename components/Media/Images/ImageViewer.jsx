@@ -1,8 +1,14 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { edieImages } from '../../../data/mediaData'
-import { HashLink } from 'react-router-hash-link'
 
-export default function ImageViewer({imgIndex, updateSelectedImageIndex, updateIsShowingImageFullScreen }) {
+import { useRouter } from 'next/navigation';
+
+import RightArrow from '@/public/icons/056-right-arrow.svg'
+import LeftArrow from '@/public/icons/057-left-arrow.svg'
+
+export default function ImageViewer({imgIndex, updateSelectedImageIndex }) {
+
+    const router = useRouter();
 
     // SHOW NEXT IMAGE
     const handleShowNext = () => {
@@ -15,18 +21,18 @@ export default function ImageViewer({imgIndex, updateSelectedImageIndex, updateI
       }
 
     const handleOnClick = () => {
-        updateIsShowingImageFullScreen(true)
+        router.push('/media/images/' + imgIndex)
     }
 
   return (
-    <div id='image-viewer' className=''>
+    <div id='image-viewer' className='w-full sm:px-8'>
         
         {/* VIEWER */}
-        <div className='flex flex-row justify-center items-center w-full h-[500px] sm:w-[800px] sm:h-[600px] bg-black/10 sm:bg-black/100 relative mb-8 mt-4 sm:mt-12'>
+        <div className='flex flex-row justify-center items-center w-full bg-black/10 sm:bg-black/100 relative mb-8 mt-4'>
 
             {/* PREVIOUS IMAGE BUTTON */}
             <button className='flex flex-col items-center justify-center w-[50px] h-[60px] sm:h-[100px] sm:w-[80px] rounded-r-full bg-black bg-opacity-60 border border-light7/20 sm:hover:bg-opacity-100 absolute left-0' onClick={handleShowPrev}>
-                <i className='flaticon-left-arrow text-2xl sm:text-4xl text-[#f8f8f1]'></i>
+                <LeftArrow className='flaticon-left-arrow w-[24px] h-[24px] sm:w-[36px] sm:h-[36px] fill-[#f8f8f1]'/>
             </button>
 
             {/* MAIN IMAGE BODY */}
@@ -37,7 +43,7 @@ export default function ImageViewer({imgIndex, updateSelectedImageIndex, updateI
 
             {/* NEXT IMAGE BUTTON */}
             <button className='flex flex-col items-center justify-center w-[50px] h-[60px] sm:h-[100px] sm:w-[80px] rounded-l-full bg-black bg-opacity-60 border border-light7/20 sm:hover:bg-opacity-100 absolute right-0' onClick={handleShowNext}>
-                <i className='flaticon-right-arrow text-2xl sm:text-4xl text-[#f8f8f1]'></i>
+                <RightArrow className='flaticon-right-arrow w-[24px] h-[24px] sm:w-[36px] sm:h-[36px] fill-[#f8f8f1]'/>
             </button>
 
         </div>

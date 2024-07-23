@@ -27,6 +27,7 @@ export default function NavBarLink({title, to, tabColor, tabClass, updateIsShowi
           top: 0,
           left: 0,
         })
+        Howler.stop();
     }
     // className='flex flex-row items-center'
 

@@ -2,6 +2,7 @@
 
 import React from 'react'
 import Link from 'next/link';
+import Menu from '@/public/icons/067-menu-2.svg'
 
 export default function MobileBurgerMenu({isShowingSlideOutMenu, updateIsShowingSlideOutMenu, player, handleSetPlayer}) {
 
@@ -39,9 +40,9 @@ export default function MobileBurgerMenu({isShowingSlideOutMenu, updateIsShowing
             </div>
         </Link>
       <div className='cursor-pointer mr-2' onClick={handleOnCLick}>
-        <div className='bg-teal4 text-light7 px-2 pt-1 rounded-md flex items-center'>
-          <div className='pb-1 pr-2 text-lg'>Menu</div>
-          <i className='flaticon-menu-2 z-50 text-xl'></i>
+        <div className='bg-teal4 text-light7 px-2 py-1 rounded-md flex items-center'>
+          <div className='mr-2 text-lg'>Menu</div>
+          <Menu className='fill-light7 z-50 h-[16px] w-[16px]'/>
         </div>
       </div>
     </div>

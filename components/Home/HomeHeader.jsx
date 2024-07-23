@@ -19,10 +19,10 @@ export default function HomeHeader() {
         <div className='flex flex-col-reverse md:flex-row w-full h-full md:h-[650px] items-center justify-center'> {/* HEADER BODY // ROW */}
 
             {/* HEADSHOT & IMAGE DESCRIPTION // COL */}
-            <div className='w-full h-full flex justify-center md:justify-end px-8' style={{backgroundImage: "linear-gradient(135deg, rgba(80,102,50,0.6) 50%, rgba(217,217,196,1) 100%)"}}>
-                <div className='w-full sm:w-[400px] md:w-[300px] lg:max-w-[400px] flex flex-col justify-start items-center md:items-end'>
-                    <img src={'/edieImages/elbHeadshot2.jpeg'} className='object-cover object-left-top w-full h-full max-h-[500px] max-w-[400px] md:max-h-[400px] md:max-w-[300px] lg:max-h-[500px] lg:max-w-[400px] mt-12'/>
-                    <div className='font-light text-md text-black italic mt-4 sm:w-[400px] text-center md:text-end pb-4 md:pb-0'>Edie Lehmann Boddicker in her backyard<br />Photo by Cody Burdette</div>
+            <div className='w-full h-full flex justify-center md:justify-end' style={{backgroundImage: "linear-gradient(135deg, rgba(80,102,50,0.6) 50%, rgba(217,217,196,1) 100%)"}}>
+                <div className='w-auto flex flex-col justify-start items-center md:items-end'>
+                    <img src={'/edieImages/elbHeadshot2.jpeg'} className='object-cover object-left-top w-full h-full mt-12 px-12 md:px-8 md:max-h-[70%]'/>
+                    <div className='font-light text-md text-black/60 w-auto italic mt-4 text-center md:text-end pb-4 md:pb-0 mx-12 md:mx-8'>Edie Lehmann Boddicker in her backyard<br />Photo by Cody Burdette</div>
                 </div>
             </div>
 
@@ -53,7 +53,7 @@ export default function HomeHeader() {
                         <RoleHashLink to={'/#vocal-contractor'} role={"Vocal Contractor"} color={'#D2AD25'}/>
 
                         {/* VOCALIST */}
-                        <RoleHashLink to={'/#vocalist'} role={'Vocalist'} color={'#D2AD25'}/>
+                        <RoleHashLink to={'/#vocalist'} role={'Vocalist'} color={'#BB6F24'}/>
 
                         {/* CONDUCTOR */}
                         <RoleHashLink to={'/#conductor'} role={'Conductor'} color={'#A34726'} />
@@ -80,13 +80,13 @@ export default function HomeHeader() {
         </div>
 
         {/* HASHLINKS TO SECTIONS OF HOMEPAGE */}
-        <div style={{backgroundImage: 'url("/backgrounds/cream background3.jpeg")', backgroundSize: "cover", backgroundRepeat: 'repeat-x'}} className='w-full sm:h-[150px] md:h-[150px] max-w-[1100px] gap-4 flex flex-col sm:flex-row md:flex-row items-center justify-evenly text-sm font-barlow pt-4 font-default pb-8 px-2'>
+        <div style={{backgroundImage: 'url("/backgrounds/cream background3.jpeg")', backgroundSize: "cover", backgroundRepeat: 'repeat-x'}} className='w-full sm:h-[150px] md:h-[150px] max-w-[1100px] gap-4 flex flex-col sm:flex-row md:flex-row items-center justify-evenly text-sm font-barlow py-4 font-default px-4'>
 
             {/* UP & COMING */}
             <HomeSectionHashLink to={'/#up-and-coming'} title={'Up & Coming'} color={'#56A29A'}/>
 
             {/* ROLES & HIGHLIGHTS */}
-            <HomeSectionHashLink to={'/#roles-&-highlights'} title={'Roles & Highlights'} color={'BB6F24'} />
+            <HomeSectionHashLink to={'/#roles-&-highlights'} title={'Roles & Highlights'} color={'#BB6F24'} />
 
             {/* RECENT WORK */}
             <HomeSectionHashLink to={'/#recent-work'} title={'Recent Work'} color={'#CC9D20'}/>

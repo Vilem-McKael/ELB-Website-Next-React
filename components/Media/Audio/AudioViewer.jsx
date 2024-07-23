@@ -1,6 +1,16 @@
+'use client';
+
 import React, {useEffect, useState} from 'react'
 import { Howl } from 'howler'
 import { audioData } from '../../../data/mediaData'
+
+import Rewind from '@/public/icons/074-rewind.svg'
+import FastForward from '@/public/icons/070-fast-forward-1.svg'
+import Play from '@/public/icons/047-play-button.svg'
+import Pause from '@/public/icons/051-pause-2.svg'
+import Stop from '@/public/icons/054-stop.svg'
+import LeftArrow from '@/public/icons/057-left-arrow.svg'
+import RightArrow from '@/public/icons/056-right-arrow.svg'
 
 export default function AudioViewer({selectedAudioIndex, updateSelectedAudioIndex, player, handleSetPlayer, timeDisplay, handleSetTimeDisplay}) {
 
@@ -123,7 +133,7 @@ export default function AudioViewer({selectedAudioIndex, updateSelectedAudioInde
     }
 
   return (
-    <div className='flex flex-col justify-start items-center w-auto sm:w-[320px] sm:h-[590px] bg-audioBg mb-12 border border-black m-4 sm:m-0 sm:mt-12 rounded-xl shadow-black shadow-sm'>
+    <div className='flex flex-col justify-start items-center w-auto sm:w-[320px] sm:h-[590px] bg-audioBg mb-12 border border-black m-4 sm:m-0 sm:mt-4 rounded-xl shadow-black shadow-sm'>
 
         {/* AUDIO IMAGE */}
         <img src={audioData[selectedAudioIndex].image} className='p-4 aspect-square object-cover bg-black/80 rounded-t-xl' />
@@ -146,17 +156,17 @@ export default function AudioViewer({selectedAudioIndex, updateSelectedAudioInde
 
             {/* REWIND ICON */}
             <button onClick={() => handleSkip(-5)}>
-                <i className='flaticon-rewind text-xl pt-2 px-2'></i>
+                <Rewind className='h-[28px] w-[28px] text-xl mx-2'/>
             </button>
 
             {/* TRACK DURATION DISPLAY */}
-            <div className='flex justify-center w-[60px] sm:w-[76px] text-2xl sm:pb-1 bg-black text-light7 px-2 rounded-md'>
+            <div className='flex justify-center w-[60px] sm:w-[76px] font-barlow text-2xl sm:pb-1 bg-black text-light7 px-2 rounded-md'>
                 {timeDisplay}
             </div>
 
             {/* FAST FORWARD ICON */}
             <button onClick={() => handleSkip(5)}>
-                <i className='flaticon-fast-forward-1 text-2xl sm:text-xl pt-2 px-2'></i>
+                <FastForward className='h-[28px] w-[28px] text-2xl sm:text-xl mx-2'/>
             </button>
 
             {/* FAST FORWARD BUTTONS */}
@@ -179,7 +189,7 @@ export default function AudioViewer({selectedAudioIndex, updateSelectedAudioInde
             
             {/* PREVIOUS AUDIO FILE BUTTON */}
             <button onClick={handleShowPrev} className='mb-1'>
-                <i className='flaticon-left-arrow text-center text-4xl sm:text-3xl'></i>
+                <LeftArrow className='h-[32px] w-[32px] text-center text-4xl sm:text-3xl'/>
             </button>
 
             {/* START, PAUSE, AND STOP BUTTONS */}
@@ -187,24 +197,24 @@ export default function AudioViewer({selectedAudioIndex, updateSelectedAudioInde
                 {player && isPlaying ? 
                     <>
                     {/* PAUSE BUTTON */}
-                    <i className='flaticon-pause-2 text-center pt-1 pl-1 transform hover:scale-110 duration-50 text-yellow-600 cursor-pointer' onClick={handlePause}></i>
+                    <Pause className='h-[32px] w-[32px] text-center transform hover:scale-110 duration-50 fill-yellow-600 cursor-pointer' onClick={handlePause}/>
                     </>
                 :
                     <>
                     {/* PLAY BUTTON */}
-                    <i className='flaticon-play-button text-center pt-1 pl-1 transform hover:scale-110 duration-50 text-green-700 cursor-pointer' onClick={handlePlay}></i>
+                    <Play className='h-[32px] w-[32px] text-center transform hover:scale-110 duration-50 fill-green-700 cursor-pointer' onClick={handlePlay}/>
                     </>
                 }
             </div>
 
             {/* STOP BUTTON */}
             <div>
-                <i className='pt-1 pr-1 flaticon-stop-button-1 text-center text-red-500 transform hover:scale-110 duration-50 cursor-pointer' onClick={handleStop}></i>
+                <Stop className='h-[32px] w-[32px] text-center fill-red-500 transform hover:scale-110 duration-50 cursor-pointer' onClick={handleStop}/>
             </div>
 
             {/* NEXT AUDIO FILE BUTTON */}
             <button onClick={handleShowNext} className='mb-1'>
-                <i className='flaticon-right-arrow text-center text-4xl sm:text-3xl'></i>
+                <RightArrow className='h-[32px] w-[32px] text-center text-4xl sm:text-3xl'/>
             </button>
 
         </div>

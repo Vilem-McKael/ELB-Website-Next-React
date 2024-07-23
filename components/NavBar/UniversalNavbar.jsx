@@ -87,7 +87,8 @@ export default function UniversalNavbar() {
   return (
     <>
         <NavBarComponent />
-        {isShowingSlideOutMenu && <SlideOutMenu />}
+        <SlideOutMenu isVisible={isShowingSlideOutMenu} updateIsShowingSlideOutMenu={updateIsShowingSlideOutMenu} />
     </>
   )
 }
+ 
