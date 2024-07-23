@@ -14,7 +14,7 @@ export default function StudioCollaborations() {
         </div>
         <div className='bg-light7/90 bg-opacity-[93%] w-full h-full flex flex-col items-center'>
         {/* LIST OF STUDIOS COLLABORATED WITH */}
-          <div className='grid grid-cols-3 sm:grid-cols-4 py-16 w-full md:w-[800px] xl:w-[1100px] gap-y-8'>
+          <div className='grid grid-cols-3 sm:grid-cols-4 py-16 w-full md:w-[800px] max-w-[1000px] gap-y-8'>
               <CompanyCard img={'/studioLogos/netflix2.png'}>Netflix</CompanyCard>
               <CompanyCard img={'/studioLogos/hbo.png'}>HBO</CompanyCard>
               <CompanyCard img={'/studioLogos/activisionBlizzard.png'}>Activision/Blizzard</CompanyCard>

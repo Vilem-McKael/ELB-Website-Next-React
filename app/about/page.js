@@ -9,7 +9,7 @@ export default function AboutPage() {
           <div className='flex flex-col w-full items-center text-light7 bg-indigo1 bg-opacity-50'>
 
             {/* WHO IS SHE */}
-            <div className='text-2xl mx-12 sm:mx-0 sm:text-4xl font-semibold mt-[400px] sm:mt-[540px] italic mb-4 bg-black text-light7 p-4 border-[1px] border-light7'>
+            <div className='text-2xl mx-12 sm:mx-0 sm:text-4xl font-semibold mt-[400px] sm:mt-[540px] mobileLandscape:mt-[200px] italic mb-4 bg-black text-light7 p-4 border-[1px] border-light7'>
               Who is Edie Lehmann Boddicker?
             </div>
 

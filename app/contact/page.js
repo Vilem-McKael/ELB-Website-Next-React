@@ -1,8 +1,13 @@
+'use client';
+
 import React from 'react'
 import Footer from '../../components/Footer/Footer'
 import SubmitIcon from '@/public/icons/018-email.svg'
+import { useRouter } from 'next/navigation';
 
 export default function ContactPage() {
+
+  const router = useRouter();
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -16,7 +21,9 @@ export default function ContactPage() {
       body: new URLSearchParams(formData).toString(),
     })
       .then(() => console.log("Form successfully submitted"))
+      .then(() => router.push('/contact/success'))
       .catch((error) => alert(error));
+
   };
   
 

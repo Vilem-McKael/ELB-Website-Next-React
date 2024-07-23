@@ -2,20 +2,21 @@
 
 import React from 'react'
 
-export default function LandscapeMobileMenu({currentPage, updateCurrentPage, isShowingSlideOutMenu, updateIsShowingSlideOutMenu}) {
+import Menu from '@/public/icons/067-menu-2.svg'
+
+export default function LandscapeMobileMenu({isShowingSlideOutMenu, updateIsShowingSlideOutMenu}) {
 
     function handleOnCLick() {
         updateIsShowingSlideOutMenu((prevValue) => !prevValue)
     }
 
   return (
-    <div className='w-full h-[80px] bg-transparent fixed flex flex-row justify-between items-center px-2'>
-      <div></div>
-      <div className='' onClick={handleOnCLick}>
-        <div className='bg-teal4 text-light7 px-2 pt-1 rounded-md z-50'>
-          <i className='flaticon-menu-2 z-50 text-xl'></i>
+    <>
+      {!isShowingSlideOutMenu && <div className='fixed top-2 right-2 z-50'>
+        <div className='bg-teal4 text-light7 px-2 py-2 rounded-md z-50 relative fill-light7' onClick={handleOnCLick}>
+          <Menu className='flaticon-menu-2 z-50 h-[28px] w-[28px] fill-light7'/>
         </div>
-      </div>
-    </div>
+      </div>}
+    </>
   )
 }

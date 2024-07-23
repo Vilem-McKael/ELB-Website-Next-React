@@ -37,6 +37,11 @@ const nextConfig = {
                 source: '/credits',
                 destination: '/credits/artists',
                 permanent: false
+            },
+            {
+                source: '/media/images/fullscreen',
+                destination: '/media/images/fullscreen/0',
+                permanent: false
             }
         ]
     }

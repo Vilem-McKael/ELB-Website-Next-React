@@ -85,10 +85,10 @@ export default function UniversalNavbar() {
       }
 
   return (
-    <>
+    <div className='bg-gradient-to-b from-light7 to-[#e1e1d7]'>
         <NavBarComponent />
         <SlideOutMenu isVisible={isShowingSlideOutMenu} updateIsShowingSlideOutMenu={updateIsShowingSlideOutMenu} />
-    </>
+    </div>
   )
 }
  

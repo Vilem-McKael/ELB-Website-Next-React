@@ -21,7 +21,7 @@ export default function ImageViewer({imgIndex, updateSelectedImageIndex }) {
       }
 
     const handleOnClick = () => {
-        router.push('/media/images/' + imgIndex)
+        router.push('/media/images/fullscreen/' + imgIndex)
     }
 
   return (
