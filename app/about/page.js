@@ -1,6 +1,8 @@
 import React from 'react'
 import Footer from '../../components/Footer/Footer'
 
+import Image from 'next/image'
+
 export default function AboutPage() {
   return (
     <div className='w-full flex flex-col items-center text-justify text-black bg-conducting1 bg-center sm:bg-cover bg-fixed'>
@@ -23,7 +25,7 @@ export default function AboutPage() {
           <div className='w-full flex flex-col items-center bg-light7 bg-opacity-95'>
           <div className='mt-16 text-md w-full px-4 sm:px-0 sm:w-[600px] md:w-[800px] lg:w-[1000px] leading-relaxed indent-8 font-barlow'>
             <div>
-              <img src='/edieImages/edie21.jpeg' className='sm:h-[214px] lg:h-[321px] w-full sm:w-auto sm:float-right sm:ml-6 my-4'/>
+              <Image href='/edieImages/edie21.jpeg' className='sm:h-[214px] lg:h-[321px] w-full sm:w-auto sm:float-right sm:ml-6 my-4'/>
               <div>
                 <span className='font-semibold text-xl'>Edie Lehmann Boddicker</span> was born to John and Edith Lehmann, German/Hungarian immigrants who fled to Buffalo, New York in 1950, escaping Russian extermination after World War II. John was a Baptist preacher at the German-speaking Austin Street Baptist Church, and Edith worked as a fashion buyer at Hengerer&apos;s. The couple were deeply involved in the Grand Island/Buffalo immigrant community, sponsoring over two-hundred German/Hungarian refugees.<br />
               </div>
@@ -33,7 +35,7 @@ export default function AboutPage() {
               </div>
               <br />
               <div>
-              <img src='/edieImages/ELB Organist.jpeg' className='w-full sm:w-auto sm:h-[300px] lg:h-[400px] sm:float-left mr-6 my-4'/>
+              <Image href='/edieImages/ELB Organist.jpeg' className='w-full sm:w-auto sm:h-[300px] lg:h-[400px] sm:float-left mr-6 my-4'/>
                   At age eight, she moved with her family to Los Angeles. Upon learning of the move Kelsey contacted Leonard Pennario. At Pennario&apos;s suggestion Edie auditioned with Lillian Steuber, then head of USC&apos;s piano department. Edie performed Mendelssohn&apos;s “Rondo Capriccioso”, a considerably daunting piece. Miss Steuber took Edie on as her only child student and introduced her to the USC Preparatory School of Music. Over the next decade Edie studied music theory with esteemed composer and professor Morten Lauridsen and chamber music with Alice and Eleonore Schoenfeld.<br />
                 </div>
                 <br />
@@ -46,7 +48,7 @@ export default function AboutPage() {
               </div>
               <br />
               <div>
-                <img src='/edieImages/edie9.jpeg' className='w-full sm:w-auto sm:h-[240px] lg:h-[320px] float-right sm:ml-6 my-4'/>
+                <Image href='/edieImages/edie9.jpeg' className='w-full sm:w-auto sm:h-[240px] lg:h-[320px] float-right sm:ml-6 my-4'/>
                 In her teens, Edie began singing in earnest, performing at her church of 11,000 members. The music programs and performances were of the highest quality, giving her the necessary stylistic vocal training for group singing. Edie maintains that churches still produce some of the best vocal talent (evident on shows like The Voice).<br />
               </div>
               <br />
@@ -59,7 +61,7 @@ export default function AboutPage() {
               </div>
               <br />
               <div>
-                <img src='/edieImages/Soap Star pic.jpeg' className='w-full sm:w-auto sm:h-[300px] lg:h-[400px] sm:float-left sm:mr-6 my-4'/>
+                <Image href='/edieImages/Soap Star pic.jpeg' className='w-full sm:w-auto sm:h-[300px] lg:h-[400px] sm:float-left sm:mr-6 my-4'/>
                 On The Big Show in 1980, even though initially hired as a singer, Edie subbed as a pianist at the last minute, performing in a Victor Borge sketch as a makeup artist who nails Borge&apos;s “struggling” version of Chopin&apos;s “C# minor Waltz”, learning the piece in one day.<br />
                 </div>
                 <br />
@@ -73,7 +75,7 @@ export default function AboutPage() {
               </div>
               <br />
               <div>
-                <img src='/edieImages/Gospel Choir w_Jordan of The Voice.jpeg' className='w-full sm:w-auto sm:h-[240px] lg:h-[320px] sm:float-right sm:ml-6 my-4'/>
+                <Image href='/edieImages/Gospel Choir w_Jordan of The Voice.jpeg' className='w-full sm:w-auto sm:h-[240px] lg:h-[320px] sm:float-right sm:ml-6 my-4'/>
                 After General Hospital, Edie returned to session work and began vocal contracting - helping composers, producers and songwriters find and cast singers for films, television, albums, and live work. Her earliest contracting and conducting jobs were for film composers Shirley Walker (Quest for Camelot, Batman: Mask of the Phantasm) and John Powell (Happy Feet 1&2, Rio 1&2, Ice Ages 2,3 & 4, etc.).<br />
                 </div>
                 <br />
@@ -90,7 +92,7 @@ export default function AboutPage() {
               </div>
               <br />
               <div>
-              <img src='/edieImages/The Lion King Capitol Records.jpg' className='w-full sm:w-auto sm:h-[200px] lg:h-[300px] sm:float-left mr-6 my-4'/>
+              <Image href='/edieImages/The Lion King Capitol Records.jpg' className='w-full sm:w-auto sm:h-[200px] lg:h-[300px] sm:float-left mr-6 my-4'/>
                 Some of her recent work with esteemed composers Hans Zimmer, John Powell, Danny Elfman, Michael Abels, Germaine Franco includes Dune, Dune 2, Encanto, Us, Nope, The Grinch, Jon Favreau&apos;s The Lion King, Hidden Figures, Solo - A Star Wars Story, Migragion, The Call of the Wild, La La Land, and many more. Additional projects include works for Netflix Animation, Nickelodeon, The Grammy Awards, The Voice, American Idol, Jimmy Kimmel and James Corden.<br />
                 </div>
                 <br />
@@ -103,7 +105,7 @@ export default function AboutPage() {
               </div>
             </div>
             <div className='flex flex-col items-center w-full mb-12'>
-            <img src='/edieImages/Sick New World DE.jpeg' className='w-full max-w-[700px] my-4 mb-2'/>
+            <Image href='/edieImages/Sick New World DE.jpeg' className='w-full max-w-[700px] my-4 mb-2'/>
             <div className='italic max-w-[700px]'>ELB & choir pre-show at Danny Elfman&apos;s Sick New World in Las Vegas</div>
             </div>
             {/* ADD AN IMAGE AT THE BOTTOM */}
