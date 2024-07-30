@@ -9,13 +9,13 @@ export default function ContactPage() {
 
   const router = useRouter();
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
   
     const myForm = event.target;
     const formData = new FormData(myForm);
     
-    fetch("@/public/__forms.html", {
+    fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: new URLSearchParams(formData).toString(),
@@ -34,7 +34,7 @@ export default function ContactPage() {
       </div>
       
       <div className='h-full w-full flex-col items-center'>
-      <form className='flex flex-col items-center justify-center py-12 w-full px-8' action='/contact/success' name='contact' method='POST' data-netlify="true" netlify-honeypot="bot-field" onSubmit={handleSubmit}>
+      <form className='flex flex-col items-center justify-center py-12 w-full px-8' name='contact' method='POST' data-netlify="true" netlify-honeypot="bot-field" onSubmit={handleSubmit}>
         <input type="hidden" name="form-name" value="contact" />
         <div className='flex flex-col sm:flex-row sm:justify-between items-center gap-4 w-full mobileLandscape:w-[400px] sm:w-[600px] md:w-[800px] pb-4'>
           <div className='flex w-full flex-col items-leading'>
