@@ -44,7 +44,11 @@ const nextConfig = {
                 permanent: false
             }
         ]
-    }
+    },
+
+    images: {
+        domains: ['elbnext.netlify.app'],
+      },
 
     // ...other config
 };

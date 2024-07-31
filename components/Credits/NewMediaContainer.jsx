@@ -7,7 +7,7 @@ export default function NewMediaContainer({image, title, work, roles}) {
 
       {/* WORK IMAGE */}
       <div className='relative w-[180px] h-[180px] sm:w-[200px] sm:h-[200px] md:w-[240px] md:h-[240px]'>
-        <Image src={image} alt={title} fill quality={85} sizes='(max-width: 640px) 180px, (max-width: 768px) 200px, 240px' className='w-[180px] h-[180px] sm:w-[200px] sm:h-[200px] md:w-[240px] md:h-[240px] object-cover sm:rounded-lg shadow-md shadow-gray-500'/>
+        <Image src={'@/public/' + image} alt={title} fill quality={85} sizes='(max-width: 640px) 180px, (max-width: 768px) 200px, 240px' className='sm:rounded-lg shadow-md shadow-gray-500'/>
       </div>
 
       {/* WORK DESCRIPTION */}
@@ -37,6 +37,8 @@ export default function NewMediaContainer({image, title, work, roles}) {
     </div>
   )
 }
+
+// w-[180px] h-[180px] sm:w-[200px] sm:h-[200px] md:w-[240px] md:h-[240px] object-cover 
 
 {/* <div className='flex flex-col w-full sm:w-[360px] lg:w-[300px] justify-center items-center font-medium'>
 
