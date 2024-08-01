@@ -46,10 +46,6 @@ const nextConfig = {
         ]
     },
 
-    images: {
-        domains: ['elbnext.netlify.app'],
-      },
-
     // ...other config
 };
 
