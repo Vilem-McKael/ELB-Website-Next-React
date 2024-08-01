@@ -1,4 +1,5 @@
 import React from 'react';
+import {SpeedInsights} from '@vercel/speed-insights';
 
 import { CreditCategory } from '../../data/creditMedia'
 import Footer from '../../components/Footer/Footer'
