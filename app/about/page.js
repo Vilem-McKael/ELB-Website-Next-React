@@ -25,7 +25,7 @@ export default function AboutPage() {
           <div className='w-full flex flex-col items-center bg-light7 bg-opacity-95'>
           <div className='mt-16 text-md w-full px-4 sm:px-0 sm:w-[600px] md:w-[800px] lg:w-[1000px] leading-relaxed indent-8 font-barlow'>
             <div>
-              <Image href='/edieImages/edie21.jpeg' className='sm:h-[214px] lg:h-[321px] w-full sm:w-auto sm:float-right sm:ml-6 my-4'/>
+              <Image href='/edieImages/edie21.jpeg' sizes="(max-width: 640px) full, (max-width: 1024px) 214px, 321px" className='sm:h-[214px] lg:h-[321px] w-full sm:w-auto sm:float-right sm:ml-6 my-4'/>
               <div>
                 <span className='font-semibold text-xl'>Edie Lehmann Boddicker</span> was born to John and Edith Lehmann, German/Hungarian immigrants who fled to Buffalo, New York in 1950, escaping Russian extermination after World War II. John was a Baptist preacher at the German-speaking Austin Street Baptist Church, and Edith worked as a fashion buyer at Hengerer&apos;s. The couple were deeply involved in the Grand Island/Buffalo immigrant community, sponsoring over two-hundred German/Hungarian refugees.<br />
               </div>
@@ -35,7 +35,7 @@ export default function AboutPage() {
               </div>
               <br />
               <div>
-              <Image href='/edieImages/ELB Organist.jpeg' className='w-full sm:w-auto sm:h-[300px] lg:h-[400px] sm:float-left mr-6 my-4'/>
+              <Image href='/edieImages/ELB Organist.jpeg' sizes='(max-width: 640px) full, (max-width: 1024px) 214px, 321px' className='w-full sm:w-auto sm:h-[300px] lg:h-[400px] sm:float-left mr-6 my-4'/>
                   At age eight, she moved with her family to Los Angeles. Upon learning of the move Kelsey contacted Leonard Pennario. At Pennario&apos;s suggestion Edie auditioned with Lillian Steuber, then head of USC&apos;s piano department. Edie performed Mendelssohn&apos;s “Rondo Capriccioso”, a considerably daunting piece. Miss Steuber took Edie on as her only child student and introduced her to the USC Preparatory School of Music. Over the next decade Edie studied music theory with esteemed composer and professor Morten Lauridsen and chamber music with Alice and Eleonore Schoenfeld.<br />
                 </div>
                 <br />
