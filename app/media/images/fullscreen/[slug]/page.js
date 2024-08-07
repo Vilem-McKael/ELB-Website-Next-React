@@ -13,7 +13,6 @@ export default function FullScreenSlugPage({params}) {
 
   useEffect(() => {
     setImgIndex(params.slug)
-    console.log("index: ", params.slug)
   }, [])
 
   return (

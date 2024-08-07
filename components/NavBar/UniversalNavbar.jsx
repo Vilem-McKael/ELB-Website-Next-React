@@ -33,10 +33,10 @@ export default function UniversalNavbar() {
     const checkScreenSize = useCallback(() => {
         const width = document.documentElement.clientWidth
         const height = document.documentElement.clientHeight
-        console.log("Window sizes: ", window.innerWidth, window.innerHeight)
-        console.log("CSS sizes: ", document.documentElement.clientWidth, document.documentElement.clientHeight)
-        console.log("Device pixel ratio: ", window.devicePixelRatio)
-        console.log("Effective css width: ", width / window.devicePixelRatio)
+        // console.log("Window sizes: ", window.innerWidth, window.innerHeight)
+        // console.log("CSS sizes: ", document.documentElement.clientWidth, document.documentElement.clientHeight)
+        // console.log("Device pixel ratio: ", window.devicePixelRatio)
+        // console.log("Effective css width: ", width / window.devicePixelRatio)
         if (height < mobileLandscapeHeightBoundary && screenSize != 'mobileLandscape') {
             setScreenSize('mobileLandscape')
         } else if (height >= mobileLandscapeHeightBoundary) {
@@ -67,7 +67,7 @@ export default function UniversalNavbar() {
       }, [checkScreenSize])
 
     const NavBarComponent = () => {
-        console.log(screenSize)
+
         switch(screenSize) {
           case 'large':
             closeSlideOutMenu()

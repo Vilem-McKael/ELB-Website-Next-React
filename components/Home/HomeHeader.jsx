@@ -2,6 +2,7 @@ import React from 'react'
 import { HashLink } from 'react-router-hash-link'
 import RoleHashLink from './RoleHashLink';
 import HomeSectionHashLink from './HomeSectionHashLink';
+import Image from 'next/image';
 
 export default function HomeHeader() {
 
@@ -28,7 +29,7 @@ export default function HomeHeader() {
 
             {/* MAIN HEADER BODY // COL */}
             <div className='w-full h-full sm:flex-col items-start justify-start'>
-                <div className='w-full md:w-[500px] lg:w-[700px] flex flex-col items-center justify-center md:justify-center px-8 sm:px-16 pt-4'>
+                <div className='h-full w-full md:w-[500px] lg:w-[700px] flex flex-col items-center justify-center md:justify-center px-8 sm:px-16 pt-4 bg-gradient-to-br from-[#F5F5EC] from-50% to-green/10 to-90%'>
 
                     {/* STYLIZED NAME AND DECORATIVE TILE */}
                     <div className='flex w-full flex-row justify-center sm:justify-between items-center mb-8'>
@@ -43,7 +44,9 @@ export default function HomeHeader() {
                                 <span className='text-4xl lg:text-5xl font-semibold text-burntOrange4'>B</span>oddicker
                             </div>
                         </div>
-                        <img src={'/deruta/deruta tile3.jpeg'} className='hidden sm:block h-[140px] w-[140px] lg:h-[160px] lg:w-[160px] '/>
+                        <div className='relative hidden sm:block h-[140px] w-[140px] lg:h-[160px] lg:w-[160px]'>
+                            <Image src={'/deruta/deruta tile3.jpeg'} fill alt='A colorful tile icon' sizes='(max-width: 1024px) 140px, 160px' priority className='hidden sm:block h-[140px] w-[140px] lg:h-[160px] lg:w-[160px] '/>
+                        </div>
                     </div>
 
                     {/* LIST OF ROLES & LINKS TO ROLE SECTIONS */}

@@ -46,7 +46,7 @@ export default function AudioViewer({selectedAudioIndex, updateSelectedAudioInde
                 html5: true,
                 volume: 0.7,
                 onplay: () => {
-                    console.log("Playing audio")
+
                     setIsPlaying(true)
                     const interval = setInterval(() => {
                         if (newPlayer.playing()) {
@@ -61,7 +61,7 @@ export default function AudioViewer({selectedAudioIndex, updateSelectedAudioInde
                     clearInterval(newPlayer._interval)
                 },
                 onend: () => {
-                    console.log("Audio finished")
+
                     clearInterval(newPlayer._interval)
                     // setSongPosition(0)
                     handleSetTimeDisplay('0:00')

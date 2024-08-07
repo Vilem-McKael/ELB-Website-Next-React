@@ -4,10 +4,11 @@ import React from 'react'
 import NavBarLink from './NavBarLink'
 import SocialButton from '../SocialButton/SocialButton'
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function NavBar({updateIsShowingSlideOutMenu, player, handleSetPlayer}) {
   return (
-    <div className='flex w-full h-[150px] justify-between items-end fixed bg-light7 border-b-[1px] border-black text-black pl-8 pr-7 z-50'>
+    <div className='flex w-full h-[150px] justify-between items-end fixed bg-gradient-to-b from-light7 from-60% to-[#f4f4eb] to-95% border-b-[1px] border-black text-black pl-8 pr-7 z-50'>
         
         {/* LEFT SIDE - NAME AND DECORATIVE TILE */}
         <Link href='/' className='flex flex-row items-end pb-4' onClick={() => {
@@ -16,7 +17,7 @@ export default function NavBar({updateIsShowingSlideOutMenu, player, handleSetPl
                 handleSetPlayer(null)
             }
         }}>
-            <img src={'/deruta/deruta tile.webp'} className='w-[80px] h-[80px]'/>
+            <Image src='/deruta/deruta tile.webp' alt='A colorful tile icon' width={1024} height={1009} className='w-[80px] h-[80px]' priority quality={100}/>
             <div className='flex-col justify-center text-xl text-black text-leading bg-opacity-95 font-normal pl-4 w-full h-[80px]'>
                 <div className=''>
                     <span className='text-2xl font-medium text-gold4 leading-[0.9]'>E</span>die
@@ -35,10 +36,10 @@ export default function NavBar({updateIsShowingSlideOutMenu, player, handleSetPl
 
             {/* SOCIAL BUTTONS */}
             <div className='flex flex-row pb-3'>
-                <SocialButton to={"https://www.linkedin.com/in/edie-lehmann-boddicker-31625a14/"} logo={'/socialLogos/linkedInLogo.png'}/>
-                <SocialButton to={"https://www.instagram.com/edielehbod/"} logo={'/socialLogos/instagramLogo.png'}/>
-                <SocialButton to={"https://www.facebook.com/e.lehbod"} logo={'/socialLogos/facebookLogo.png'}/>
-                <SocialButton to={"https://www.imdb.com/name/nm0090798/"} logo={'/socialLogos/imdbLogo.webp'}/>
+                <SocialButton to={"https://www.linkedin.com/in/edie-lehmann-boddicker-31625a14/"} siteName={'LinkedIn'} logo={'/socialLogos/linkedInLogo.png'}/>
+                <SocialButton to={"https://www.instagram.com/edielehbod/"} siteName={'Instagram'} logo={'/socialLogos/instagramLogo.png'}/>
+                <SocialButton to={"https://www.facebook.com/e.lehbod"} siteName={'Facebook'} logo={'/socialLogos/facebookLogo.png'}/>
+                <SocialButton to={"https://www.imdb.com/name/nm0090798/"} siteName={'IMDB'} logo={'/socialLogos/imdbLogo.webp'}/>
             </div>
 
             {/* NAV LINKS */}

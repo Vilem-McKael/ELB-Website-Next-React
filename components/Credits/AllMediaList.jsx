@@ -50,13 +50,11 @@ export default function AllMediaList({filters, viewedCredits, updateFilters, sor
 
     const handleSortCheckbox = (evt) => {
         let newSort = {...emptySortObj, [evt.target.name]: Boolean(evt.target.checked)}
-        console.log(newSort)
         sortCredits(newSort)
         setSortType(newSort)
     }
 
     const handleRoleCheckbox = (evt) => {
-        console.log(evt.target.name, Boolean(evt.target.checked))
         setRoles({...roles, [evt.target.name]: Boolean(evt.target.checked)})
     }
 
@@ -76,7 +74,6 @@ export default function AllMediaList({filters, viewedCredits, updateFilters, sor
             years: {...years}
         }
 
-        console.log(sortType)
         updateFilters(newFilters, sortType, viewedCredits)
 
     }

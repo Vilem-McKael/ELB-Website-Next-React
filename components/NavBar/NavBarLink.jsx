@@ -52,10 +52,10 @@ export default function NavBarLink({title, to, tabColor, tabClass, updateIsShowi
     function checkTitleEqualsPathName() {
       let pathname = window.location.pathname
       if (title === "Home" && pathname.split('/')[1] === "") {
-        console.log('were home!')
+
         return true
       } else {
-        console.log(pathname.split('/'), title.toLowerCase())
+
         return pathname.split('/')[1] === title.toLowerCase()
       }
     }
@@ -63,7 +63,7 @@ export default function NavBarLink({title, to, tabColor, tabClass, updateIsShowi
     const SvgComponent = svgOptions[title]
     
   return (
-    <button className={`font-regular flex flex-col justify-between items-center w-full h-[50px] rounded-t-xl ${tabClass}`} onClick={handleOnClick}>
+    <button className={`nav-link font-regular flex flex-col justify-between items-center w-full h-[50px] rounded-t-xl ${tabClass}`} onClick={handleOnClick}>
         <div className='flex flex-row items-center mt-2'><SvgComponent className={"h-[19px] w-[19px] mr-2 g"}/><div className='transform origin-center'>{title}</div></div>
         <div className={`w-full rounded-t-full`} style={{backgroundColor: tabColor, height: isCurrentPage ? '12px' : '4px'}}></div>
     </button>

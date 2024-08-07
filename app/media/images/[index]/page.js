@@ -15,7 +15,6 @@ export default function ImagesPage({params}) {
     }
 
     useEffect(() => {
-        console.log(params)
         if (params.index && params.index < edieImages.length) {
             setSelectedImageIndex(() => params.index)
         }

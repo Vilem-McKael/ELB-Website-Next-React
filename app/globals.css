@@ -7,7 +7,7 @@
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 248, 248, 241;
-  --background-end-rgb: 240, 240, 230;
+  --background-end-rgb: 235, 235, 229;
 }
 
 /* @media (prefers-color-scheme: dark) {
@@ -28,8 +28,23 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+/* * {
+  scroll-behavior: smooth;
+} */
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+
+@keyframes easeUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
   }
 }

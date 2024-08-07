@@ -1,13 +1,27 @@
-import React from 'react'
-import Image from 'next/image'
+'use client';
 
-export default function NewMediaContainer({image, title, work, roles}) {
+import React, { useEffect, useState } from 'react'
+import Image from 'next/image'
+import { TRACE_OUTPUT_VERSION } from 'next/dist/shared/lib/constants';
+
+export default function NewMediaContainer({image, title, roles, index}) {
+
+  const [hasLoaded, setHasLoaded] = useState(false)
+
+  useEffect(() => {
+    setTimeout(() => {
+      setHasLoaded(true)
+    }, 80 * index)
+    // setHasLoaded(true)
+    //  ${'delay-[' + (index * 100) + ']'} 
+  }, [])
+
   return (
-    <div className='flex flex-col w-[180px] sm:w-[200px] md:w-[240px] justify-center items-center gap-[1px] font-medium'>
+    <div className={`flex flex-col w-[180px] sm:w-[200px] md:w-[240px] justify-center items-center gap-[1px] font-medium transition-all duration-[100ms] ${hasLoaded ? 'translate-y-0 opacity-100' : 'translate-y-full opacity-0'}`}>
 
       {/* WORK IMAGE */}
       <div className='relative w-[180px] h-[180px] sm:w-[200px] sm:h-[200px] md:w-[240px] md:h-[240px]'>
-        <Image src={image} alt={title} style={{objectFit: 'cover', objectPosition: 'center'}} quality={85} sizes='(max-width: 640px) 180px, (max-width: 768px) 200px, 240px' className='sm:rounded-lg shadow-md shadow-gray-500'/>
+        <Image src={image} fill alt={title} quality={90} sizes='(max-width: 640px) 180px, (max-width: 768px) 200px, 240px' className='sm:rounded-lg shadow-md shadow-gray-500 object-cover object-center'/>
       </div>
 
       {/* WORK DESCRIPTION */}
@@ -28,7 +42,7 @@ export default function NewMediaContainer({image, title, work, roles}) {
         } */}
 
         {/* ROLES FOR THIS WORK */}
-        <div className='w-full text-sm font-light flex gap-1 justify-center text-center text-wrap'>
+        <div className='w-full text-sm font-light flex gap-1 justify-center text-center text-wrap transition-transform'>
           <div>{roles.map((role, index) => index !== roles.length - 1 ? role + ' / ' : role)}</div>
         </div>
         
