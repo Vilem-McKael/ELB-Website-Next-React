@@ -7647,7 +7647,7 @@ export const FeaturedMedia = {
         { title: "Ray Charles", img: '/creditImages/rayCharles.jpeg', roles: [r.Vocalist], notes: '', year: '', link: '' },
         { title: "Don Henley", img:'/creditImages/donHenley2.jpeg', roles: [r.Vocalist], notes: '', year: '', link: ''},
         { title: "Jaco Pastorius", img: '/creditImages/jaco3.jpeg', roles: [r.Vocalist], notes: '', year: '', link: '' },
-        { title: "Matthew Wilder", img: '/creditImages/matthewWilder.webp', roles: [r.Vocalist], notes: '', year: '', link: '' },
+        { title: "Matthew Wilder", img: '/creditImages/matthewWilder.webp', roles: [r.Vocalist, r.Contractor], notes: '', year: '', link: '' },
         { title: "James Ingram", img: '/creditImages/jamesIngram.webp', roles: [r.Vocalist], notes: '', year: '', link: '' },
         { title: "Amy Grant", img: '/creditImages/amyGrant.webp', roles: [r.Vocalist], notes: '', year: '', link: '' },
         { title: "Bill Withers", img: '/creditImages/billWithers.webp', roles: [r.Vocalist], notes: '', year: '', link: '' },
@@ -7666,9 +7666,9 @@ export const FeaturedMedia = {
         { title: "Vonda Shepherd", img: '/creditImages/vondaShepard.jpeg', roles: [r.Vocalist], notes: '', year: '', link: '' },
         { title: "Patti Austin", img: '/creditImages/pattiAustin.jpeg', roles: [r.Vocalist], notes: '', year: '', link: '' },
         { title: "Vampire Weekend", img: '/creditImages/vampireWeekend2.png', roles: [r.Contractor], notes: '', year: '', link: '' },
-        { title: "The Used", img: '/creditImages/theUsed.webp', roles: [r.Vocalist, r.Arranger], notes: '', year: '', link: '' },
+        { title: "The Used", img: '/creditImages/theUsed.webp', roles: [r.Contractor, r.Vocalist, r.Arranger], notes: '', year: '', link: '' },
         { title: "Katy Perry", img: '/creditImages/katyPerry.jpeg', roles: [r.Contractor, r.Arranger, r.Vocalist, r.Conductor], notes: '', year: '', link: '' },
-        { title: "Rüfüs du Sol", img: '/creditImages/rufusDuSOl.jpeg', roles: [r.Vocalist], notes: '', year: '', link: ''},
+        { title: "Rüfüs du Sol", img: '/creditImages/rufusDuSOl.jpeg', roles: [r.Contractor, r.Vocalist], notes: '', year: '', link: ''},
         { title: "Shawn Mendes", img: '/creditImages/shawnMendes2.jpeg', roles: [r.Contractor, r.Arranger, r.Vocalist], notes: '', year: '', link: '' },
         { title: "Camila Cabello", img: '/creditImages/camilaCabello.jpeg', roles: [r.Vocalist], notes: '', year: '', link: '' },
         { title: "Harry Styles", img: '/creditImages/harryStyles.jpeg', roles: [r.Contractor, r.Conductor], notes: '', year: '', link: '' },
@@ -7678,7 +7678,7 @@ export const FeaturedMedia = {
         { title: "The Weeknd", img: '/creditImages/theWeeknd.jpeg', roles: [r.Vocalist, r.Contractor], notes: '', year: '', link: '' },
         { title: "Yeah Yeah Yeahs", img: '/creditImages/yeahYeahYeahs.jpeg', roles: [r.Contractor, r.Performer, r.Vocalist], notes: '', year: '', link: '' },
         { title: "Muse", img: '/creditImages/muse.jpeg', roles: [r.Vocalist], notes: '', year: '', link: '' },
-        { title: "Andrea Bocelli", img: '/creditImages/andreaBocelli3.jpeg', roles: [r.Vocalist], notes: '', year: '', link: '' }
+        { title: "Andrea Bocelli", img: '/creditImages/andreaBocelli3.jpeg', roles: [r.Contractor, r.Vocalist], notes: '', year: '', link: '' }
     ],
     /*
     Nope,
@@ -7811,7 +7811,7 @@ export const FeaturedMedia = {
         },
         {
             title: "Charles Fox",
-            img: '/composerImages/charlesFox.jpeg',
+            img: '/composerImages/charlesFox.png',
             roles: [],
             notes: "",
             year: '',
@@ -8183,7 +8183,7 @@ export const FeaturedMedia = {
         {
             title: "The Lorax",
             img: '/creditImages/thelorax.jpeg',
-            roles: [r.Contractor, r.VoiceActor, r.Conductor],
+            roles: [r.Contractor, r.VoiceActor, r.Vocalist, r.Conductor],
             notes: "",
             year: '',
             link: ''
@@ -8270,8 +8270,8 @@ export const FeaturedMedia = {
         },
         { 
             title: "Mulan",
-            img: '/creditImages/mulan.jpeg',
-            roles: [r.Soloist, r.Vocalist],
+            img: '/creditImages/mulan2020.png',
+            roles: [r.Contrator, r.Vocalist],
             notes: '',
             year: '',
             link: ''
@@ -8319,7 +8319,7 @@ export const FeaturedMedia = {
         { 
             title: "Tag",
             img: '/creditImages/tag.jpeg',
-            roles: [r.Contractor, r.Vocalist],
+            roles: [r.Contractor, r.Conductor, r.Vocalist],
             notes: '',
             year: '',
             link: ''
@@ -8510,7 +8510,7 @@ export const FeaturedMedia = {
         },
         { 
             title: "Diary of a Wimpy Kid: Rodrick Rules",
-            img: '/creditImages/diaryOfAWimpyKidRodrick.jpeg',
+            img: '/creditImages/dowk22.png',
             roles: [r.Contractor],
             notes: '',
             year: '',
@@ -8600,6 +8600,22 @@ export const FeaturedMedia = {
             title: "Scary Movie 2",
             img: '/creditImages/scaryMovie2.jpeg',
             roles: [r.Contractor],
+            notes: '',
+            year: '',
+            link: ''
+        },
+        {
+            title: "Wonder Park",
+            img: '/creditImages/wonderPark2.jpg',
+            roles: [r.Contractor, r.Vocalist],
+            notes: '',
+            year: '',
+            link: ''
+        },
+        {
+            title: "Timmy Failure",
+            img: '/creditImages/timmyFailure.jpg',
+            roles: [r.Vocalist],
             notes: '',
             year: '',
             link: ''
@@ -9247,7 +9263,7 @@ export const FeaturedMedia = {
         },
         {
             title: "Hans Zimmer at the Hollywood Bowl",
-            img: '/creditImages/hansZimmerHOBowl.jpeg',
+            img: '/creditImages/hansZimmerHOBowl2.png',
             roles: [r.Vocalist, r.Contractor],
             notes: "",
             year: '',
@@ -9272,7 +9288,7 @@ export const FeaturedMedia = {
         {
             title: "Tubular Bells 2 Live at Edinburgh Castle - Mike Oldfield",
             img: '/creditImages/Tubular Bells 2 Live.jpg',
-            roles: [r.Performer, r.Vocalist, r.Contractor],
+            roles: [r.Performer, r.Vocalist],
             notes: "",
             year: '',
             link: '',
@@ -9280,7 +9296,7 @@ export const FeaturedMedia = {
         {
             title: "Dreamworks Animation In Concert - Celebrating 20 Years",
             img: "/creditImages/dreamworks20HOBowl.jpg",
-            roles: [r.Contractor, r.Vocalist],
+            roles: [r.Contractor, r.Vocalist, r.Conductor],
             notes: "",
             year: '',
             link: ''
@@ -9288,7 +9304,7 @@ export const FeaturedMedia = {
         {
             title: "La La Land - Live at the Hollywood Bowl",
             img: "/edieImages/LaLa Land rehearsal pic.jpg",
-            roles: [r.Contractor, r.Vocalist],
+            roles: [r.Vocalist],
             notes: "",
             year: '',
             link: ''
@@ -9296,15 +9312,15 @@ export const FeaturedMedia = {
         {
             title: "The Used Live At Amoeba",
             img: '/edieImages/The Used @ Amoeba Live.jpg',
-            roles: [r.Contractor, r.Arranger],
+            roles: [r.Contractor, r.Arranger, r.Vocalist],
             notes: "",
             year: '',
             link: '',
         },
         {
-            title: "Danny Elfman's The Nightmare Before Christmas at the Hollywood Bowl",
+            title: "Danny Elfman: From Boingo to Batman to Big Mess and Beyond",
             img: '/edieImages/Danny Elfman @ The HO Bowl.jpeg',
-            roles: [r.Conductor],
+            roles: [r.Conductor, r.Contractor, r.Vocalist],
             notes: "",
             year: '',
             link: '',

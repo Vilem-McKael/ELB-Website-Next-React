@@ -18,7 +18,7 @@ export default function NavBar({updateIsShowingSlideOutMenu, player, handleSetPl
             }
         }}>
             <Image src='/deruta/deruta tile.webp' alt='A colorful tile icon' width={1024} height={1009} className='w-[80px] h-[80px]' priority quality={100}/>
-            <div className='flex-col justify-center text-xl text-black text-leading bg-opacity-95 font-normal pl-4 w-full h-[80px]'>
+            <div className='flex-col justify-center text-xl text-black text-leading bg-opacity-95 font-normal pl-4 w-full h-[80px] font-zilla'>
                 <div className=''>
                     <span className='text-2xl font-medium text-gold4 leading-[0.9]'>E</span>die
                 </div>

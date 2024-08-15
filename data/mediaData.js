@@ -349,7 +349,96 @@ export const edieImages = [
     {
         image: "/edieImages/TV James Corden Awolnation.jpg",
         description: ""
-    }
+    },
+    {
+        image: "/edieImages/Craig Zadan Tribute Concert.JPG",
+        description: ""
+    },
+    {
+        image: "/edieImages/Camilla Cabello Group Ellen.JPG",
+        description: ""
+    },
+    {
+        image: "/edieImages/jennifer_hudsonCraig Z Tribute 2018.webp",
+        description: ""
+    },
+    {
+        image: "/edieImages/VMA's 30 Sec. to Mars.JPG",
+        description: ""
+    },
+    {
+        image: "/edieImages/ELB Hans Live.JPG",
+        description: ""
+    },
+    {
+        image: "/edieImages/Hans & ELB.JPG",
+        description: ""
+    },
+    {
+        image: "/edieImages/Hans @ Santa Barbara Amphitheatre 2017.JPG",
+        description: ""
+    },
+    {
+        image: "/edieImages/Hans Live HO Bowl.JPG",
+        description: ""
+    },
+    {
+        image: "/edieImages/Hans and Loire w: ELB.JPG",
+        description: ""
+    },
+    {
+        image: "/edieImages/GoodDayLA with Pink Martini.JPG",
+        description: ""
+    },
+    {
+        image: "/edieImages/Little w:Germaine Franco.jpeg",
+        description: ""
+    },
+    {
+        image: "/edieImages/Mulan, David Campbell.JPG",
+        description: ""
+    },
+    {
+        image: "/edieImages/Now We Here Session.JPG",
+        description: ""
+    },
+    {
+        image: "/edieImages/Richard Carpenter session.jpg",
+        description: ""
+    },
+    {
+        image: "/edieImages/Richard Carpenter:ELB:VLB.JPG",
+        description: ""
+    },
+    {
+        image: "/edieImages/Richard Carpenter @ Capitol.JPG",
+        description: ""
+    },
+    {
+        image: "/edieImages/Wonder Park 2.JPG",
+        description: ""
+    },
+    {
+        image: "/edieImages/Wonder Park.JPG",
+        description: ""
+    },
+    {
+        image: "/edieImages/US Michael Abels.JPG",
+        description: ""
+    },
+    {
+        image: "/edieImages/Thomas Dolby w: ELB.JPG",
+        description: ""
+    },
+    {
+        image: "/edieImages/The Voice Dec 2018.jpeg",
+        description: ""
+    },
+    {
+        image: "/edieImages/The Future Is Female Concert.JPG",
+        description: ""
+    },
+    
 ];
 
 

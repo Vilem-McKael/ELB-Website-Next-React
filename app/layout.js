@@ -2,7 +2,7 @@ import "@/app/globals.css";
 
 export const metadata = {
   title: "Edie Lehmann Boddicker",
-  description: "The official website of Los Angeles based vocal contractor and vocalist Edie Lehmann Boddicker",
+  description: "The official website of vocal contractor and vocalist Edie Lehmann Boddicker",
   keywords: "edie lehmann boddicker, vocal contractor, edie lehmann, edie, vocal contractor los angeles"
 };
 

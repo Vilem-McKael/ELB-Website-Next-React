@@ -29,7 +29,7 @@ export default function HomeHeader() {
 
             {/* MAIN HEADER BODY // COL */}
             <div className='w-full h-full sm:flex-col items-start justify-start'>
-                <div className='h-full w-full md:w-[500px] lg:w-[700px] flex flex-col items-center justify-center md:justify-center px-8 sm:px-16 pt-4 bg-gradient-to-br from-[#F5F5EC] from-50% to-green/10 to-90%'>
+                <div className='h-full w-full md:w-[500px] lg:w-[700px] flex flex-col items-center justify-center md:justify-center px-8 sm:px-16 pt-4 bg-gradient-to-br from-[#F5F5EC] from-50% to-green/10 to-90% font-zilla'>
 
                     {/* STYLIZED NAME AND DECORATIVE TILE */}
                     <div className='flex w-full flex-row justify-center sm:justify-between items-center mb-8'>
