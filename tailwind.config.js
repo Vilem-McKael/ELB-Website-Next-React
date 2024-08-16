@@ -20,7 +20,7 @@ module.exports = {
         'inter': ['Inter', 'sans-serif'],
         'montserrat': ['Montserrat', 'sans-serif'],
         'barlow': ['Barlow', 'sans-serif'],
-        'zilla': ['Playfair Display', 'serif'],
+        'zilla': ['Barlow', 'sans-serif'],
         'abril': ['Abril Fatface', 'serif'],
       },
       colors: {
