@@ -22,7 +22,7 @@ export default function ImagesPage({params}) {
 
   return (
     <div>
-        <div className='flex flex-col items-center w-full max-w-[1000px]'>
+        <div className='flex flex-col items-center w-full h-full min-h-screen max-w-[1000px]'>
             <MediaSelector/>
 
             <ImageViewer imgIndex={selectedImageIndex} updateSelectedImageIndex={updateSelectedImageIndex}/>

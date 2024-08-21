@@ -12,8 +12,8 @@ export default function FullScreenPage({}) {
   }
 
   return (
-    <>
+    <div className='w-[100%] h-[100%] flex flex-col items-center justify-center'>
         <ImageFullScreen imgIndex={imgIndex} updateSelectedImageIndex={updateImageIndex}/>
-    </>
+    </div>
   )
 }

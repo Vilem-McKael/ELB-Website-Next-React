@@ -37,7 +37,7 @@ export default function ImageList({updateSelectedImageIndex}) {
             {edieImages.map((img, index) => {
 
                 {/* IMAGE HASHLINK */}
-                return <Link href='/media/images/#image-viewer' key={index} onClick={() => handleOnClick(index)} className='w-[100%] aspect-square md:h-[200px] md:w-[200px] relative'>
+                return <Link href='/media/images/#image-viewer' key={index} onClick={() => handleOnClick(index)} className='w-[100%] aspect-square md:h-[200px] md:w-[200px] relative sm:hover:scale-105 duration-150 transition shadow-black/50 shadow-md'>
                     <Image src={img.image} alt={'description' ?? "No description found."} fill sizes='(max-width: 640px) 160px, 200px' className='object-cover'/>
                 </Link>
             })}
