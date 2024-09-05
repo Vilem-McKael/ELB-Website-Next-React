@@ -28,8 +28,8 @@ export default function ImageViewer({imgIndex, updateSelectedImageIndex }) {
     <div id='image-viewer' className='w-screen h-[500px] sm:h-[600px] mobileLandscape:h-[400px] md:h-[600px] sm:px-16 flex flex-row items-center justify-between mb-8 mt-4'>
         
         {/* PREVIOUS IMAGE BUTTON */}
-        <button className='flex flex-col items-center justify-center w-[36px] h-[50px] rounded-r-full border-r border-y border-black sm:border-none sm:rounded-none sm:h-full sm:w-[80px] bg-[#f8f8f1] sm:bg-transparent sm:hover:bg-black/20 group absolute left-0 sm:static z-10' onClick={handleShowPrev}>
-            <LeftArrow className='flaticon-left-arrow w-[24px] h-[24px] sm:w-[36px] sm:h-[36px] fill-black sm:group-hover:scale-110 transition duration-100'/>
+        <button className='flex flex-col items-center justify-center w-[36px] h-[50px] rounded-r-full border-r border-y border-black sm:border-none sm:rounded-none sm:h-full sm:w-[80px] bg-[#f8f8f1] sm:bg-transparent sm:hover:bg-black/20 group absolute left-0 sm:static z-10 duration-150' onClick={handleShowPrev}>
+            <LeftArrow className='flaticon-left-arrow w-[24px] h-[24px] sm:w-[36px] sm:h-[36px] fill-black sm:group-hover:scale-110 transition duration-150'/>
         </button>
 
         {/* VIEWER */}
@@ -46,8 +46,8 @@ export default function ImageViewer({imgIndex, updateSelectedImageIndex }) {
         </div>
         
         {/* NEXT IMAGE BUTTON */}
-        <button className='flex flex-col items-center justify-center w-[36px] h-[50px] rounded-l-full bg-[#f8f8f1] border-l border-y border-black sm:rounded-none sm:h-full absolute right-0 sm:static sm:w-[80px] sm:hover:scale-110 sm:bg-transparent sm:hover:bg-black/20 transition duration-150' onClick={handleShowNext}>
-                <RightArrow className='flaticon-right-arrow w-[24px] h-[24px] sm:w-[36px] sm:h-[36px] fill-black'/>
+        <button className='flex flex-col items-center justify-center w-[36px] h-[50px] rounded-l-full bg-[#f8f8f1] border-black border-y border-l sm:border-none sm:rounded-none sm:h-full absolute right-0 sm:static sm:w-[80px] sm:bg-transparent sm:hover:bg-black/20 transition duration-150 group z-10' onClick={handleShowNext}>
+                <RightArrow className='flaticon-right-arrow w-[24px] h-[24px] sm:w-[36px] sm:h-[36px] fill-black sm:group-hover:scale-110 duration-150'/>
             </button>
 
         
