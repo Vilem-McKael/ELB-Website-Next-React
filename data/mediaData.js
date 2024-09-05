@@ -227,10 +227,6 @@ export const edieImages = [
         description: "Katy Perry's Instagram featuring ELB Gospel Choir, produced by Jeff Bhasker",
     },
     {
-        image: "/edieImages/Katy Perry Tweet ELB.jpg",
-        description: "",
-    },
-    {
         image: "/edieImages/Michael Abels US kids.jpg",
         description: `Michael Abels and children's choir for Jordan Peele's "Us"`,
     },
@@ -284,11 +280,11 @@ export const edieImages = [
     },
     {
         image: "/edieImages/The Voice early on copy.jpg",
-        description: "",
+        description: "The Voice singers early on",
     },
     {
         image: "/edieImages/The Voice Kids Alicia Keys.jpeg",
-        description: "",
+        description: "The Voice Kids Choir with Alicia Keys",
     },
     {
         image: "/edieImages/elb&giorgio.png",
@@ -300,143 +296,139 @@ export const edieImages = [
     },
     {
         image: "/edieImages/gwen-stefani-fix-you-the-voice-01 May 2, 2017 .jpg",
-        description: "",
+        description: "Gwen Stefani \"Fix You\" on The Voice",
     },
     {
         image: "/edieImages/gwen-stefani-fix-you-the-voice-12 May 2, 2017 .jpg",
-        description: "",
+        description: "Gwen Stefani \"Fix You\" on The Voice",
     },
     {
         image: "/edieImages/Ice Age Christmas Special Photo.jpg",
-        description: "",
-    },
-    {
-        image: "/edieImages/JHud Craig Zadan Tribute.jpg",
-        description: "",
+        description: "Ice Age Christmas Special with composer John Paesano",
     },
     {
         image: "/edieImages/Jimmy Kimmel Kids Choir (1).jpg",
-        description: "",
+        description: "Jimmy Kimmel Kids Choir",
     },
     {
         image: "/edieImages/LaLa Land ELB & Amick HO Bowl.jpeg",
-        description: "",
+        description: "ELB with Amick at La La Land Hollywood Bowl",
     },
     {
         image: "/edieImages/LaLa Land rehearsal pic.jpg",
-        description: "",
+        description: "La La Land Live! at Hollywood Bowl Rehearsal",
     },
     {
         image: "/edieImages/Shawn Mendes Session Pandemic at Sol 7.jpeg",
-        description: "",
+        description: "Shawn Mendes Pandemic Session at Sol 7",
     },
     {
         image: "/edieImages/Sick New World 1 (1).jpeg",
-        description: "",
+        description: "Danny Elfman\'s Sick New World",
     },
     {
         image: "/edieImages/Sick New World 2  (1).jpeg",
-        description: "",
+        description: "Danny Elfman\'s Sick New World",
     },
     {
         image: "/edieImages/2018-AfrChoir-CR-1458.jpg",
-        description: "",
+        description: "ELB Conducting for Quiddiya Choir",
     },
     {
         image: "/edieImages/2018-AfrChoir-CR-1709.jpg",
-        description: ""
+        description: "Quiddiya Choir for Bill Ross"
     },
     {
         image: "/edieImages/TV James Corden Awolnation.jpg",
-        description: ""
+        description: "TV James Corden Awolnation"
     },
     {
         image: "/edieImages/Craig Zadan Tribute Concert.JPG",
-        description: ""
+        description: "Craig Zadan Tribute Concert"
     },
     {
         image: "/edieImages/Camilla Cabello Group Ellen.JPG",
-        description: ""
+        description: "Camilla Cabello Group Ellen"
     },
     {
         image: "/edieImages/jennifer_hudsonCraig Z Tribute 2018.webp",
-        description: ""
+        description: "Jennifer Hudson Craig Z Tribute"
     },
     {
         image: "/edieImages/VMA's 30 Sec. to Mars.JPG",
-        description: ""
+        description: "VMA\'s 30 Seconds to Mars"
     },
     {
         image: "/edieImages/ELB Hans Live.JPG",
-        description: ""
+        description: "ELB Hans Live"
     },
     {
         image: "/edieImages/Hans & ELB.JPG",
-        description: ""
+        description: "Hans & ELB with Lebo"
     },
     {
         image: "/edieImages/Hans @ Santa Barbara Amphitheatre 2017.JPG",
-        description: ""
+        description: "Hans at Santa Barbara Amphitheatre"
     },
     {
         image: "/edieImages/Hans Live HO Bowl.JPG",
-        description: ""
+        description: "Hans Live Hollywood Bowl"
     },
     {
         image: "/edieImages/Hans and Loire w: ELB.JPG",
-        description: ""
+        description: "Hans and Loire with ELB"
     },
     {
         image: "/edieImages/GoodDayLA with Pink Martini.JPG",
-        description: ""
+        description: "GoodDayLA with Pink Martini"
     },
     {
         image: "/edieImages/Little w:Germaine Franco.jpeg",
-        description: ""
+        description: "Little with Germaine Franco"
     },
     {
         image: "/edieImages/Mulan, David Campbell.JPG",
-        description: ""
+        description: "Mulan with David Campbell"
     },
     {
         image: "/edieImages/Now We Here Session.JPG",
-        description: ""
+        description: "\"Now We Here\" Gospel Group"
     },
     {
         image: "/edieImages/Richard Carpenter session.jpg",
-        description: ""
+        description: "Richard Carpenter session at Capitol"
     },
     {
         image: "/edieImages/Richard Carpenter:ELB:VLB.JPG",
-        description: ""
+        description: "In the booth at Capitol with Richard Carpenter"
     },
     {
         image: "/edieImages/Richard Carpenter @ Capitol.JPG",
-        description: ""
+        description: "Ladies group with Richard Carpenter"
     },
     {
         image: "/edieImages/Wonder Park 2.JPG",
-        description: ""
+        description: "Wonder Park with Steven Price"
     },
     {
         image: "/edieImages/Wonder Park.JPG",
-        description: ""
+        description: "Wonder Park with Steven Price"
     },
     {
         image: "/edieImages/US Michael Abels.JPG",
-        description: ""
+        description: "\"Us\" with composer Michael Abels"
     },
     {
         image: "/edieImages/Thomas Dolby w: ELB.JPG",
-        description: ""
+        description: "Thomas Dolby with ELB"
     },
     {
         image: "/edieImages/The Voice Dec 2018.jpeg",
-        description: ""
+        description: "The Voice Dec 2018"
     },
     {
         image: "/edieImages/The Future Is Female Concert.JPG",
-        description: ""
+        description: "The Future is Female concert at The Wiltern"
     },
     
 ];
