@@ -460,10 +460,8 @@ export const videoData = [
     },
     {
         title: "Company - Robert Scorpio & Katherine Delafield, General Hospital",
-        description: `Twenty years later on YT, Kate leaving and the story of Robert & Katherine ending was just as hard.  I hadn't remembered this song from my first watching in the '80's, and loved it when I heard it during the retelling of the storyline (and thanks to itunes, now own the original version as well...).
-
-The song was composed/written by Rickie Lee Jones & Alfred Johnson.  This version was performed by Edie Lehmann on General Hospital in April of 1989.`,
-        vidoeId: "RsQC6F9d6JE"
+        description: `The song was composed/written by Rickie Lee Jones & Alfred Johnson.  This version was performed by Edie Lehmann on General Hospital in April of 1989.`,
+        videoId: "RsQC6F9d6JE"
     },
     {
         title: "Mike Oldfield ( Tubular bells II - Live in Edinburgh Castle 1992 )",

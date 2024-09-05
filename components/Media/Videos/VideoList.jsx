@@ -3,17 +3,18 @@
 import React from 'react'
 import { videoData } from '../../../data/mediaData'
 
+
 export default function VideoList({updateSelectedVideo}) {
 
     // HANDLE SELECT VIDEO
     const handleOnClick = (video) => {
         updateSelectedVideo(video)
 
-        const scrollOptions = {
-            duration: 300,
-            smooth: true
-        }
-        animateScroll.scrollToTop(scrollOptions)
+        window.scroll({
+            top: window.top,
+            left: 0,
+            behavior: "smooth"
+        })
     }
 
   return (
