@@ -31,6 +31,24 @@ export default function UpAndComing() {
                 </div>
             </div>
         </div>
+
+        <div className='flex flex-col items-center md:flex-row text-wrap w-full sm:w-[640px] md:w-full lg:w-[900px] xl:w-[1100px] md:h-[500px] mb-8 md:shadow-lg md:shadow-gray-500'>
+            <img src={'/creditImages/dannyElfmanFromB2B.jpg'} className='h-full w-full sm:w-[400px] md:w-[400px] object-cover shrink-0 object-center'/>
+            <div className='flex flex-col w-full sm:w-[400px] md:w-full h-full justify-center items-start p-4 sm:px-0 md:py-0 md:px-8 object-left-bottom'>
+                <div className='text-4xl font-semibold'>
+                    Danny Elfman: From Boingo to Batman to Big Mess & Beyond
+                </div>
+                <div className='pt-1 text-xl italic font-medium md:ml-4 font-barlow'>
+                    Vocal Contractor & Vocalist
+                </div>
+                <div className='pt-2 text-md italic md:ml-8 font-barlow'>
+                    <span className='font-bold'>DE Official Website: </span>&quot;Join us for our Halloween weekend extravaganza along with special guests Johnny Jewel x DESIRE. See you there!&quot;
+                </div>
+                <div className='md:ml-8 text-sm pt-4 font-barlow'>
+                    Nov 2nd at the Hollywood Bowl & Nov 3rd at the Shoreline Amphitheatre in San Francisco
+                </div>
+            </div>
+        </div>
         
         <div className='flex flex-col items-center md:flex-row text-wrap w-full sm:w-[640px] md:w-full lg:w-[900px] xl:w-[1100px] md:h-[500px] mb-8 md:shadow-lg md:shadow-gray-500'>
             <img src={'/creditImages/ffviiWorldTour.png'} className='h-full w-full sm:w-[400px] md:w-[400px] object-cover object-top'/>
