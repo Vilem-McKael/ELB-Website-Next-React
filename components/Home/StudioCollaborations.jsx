@@ -27,6 +27,7 @@ export default function StudioCollaborations() {
               <CompanyCard img={'/studioLogos/universalPictures.png'}>Universal Pictures</CompanyCard>
               <CompanyCard img={'/studioLogos/lionsgate.png'}>Lionsgate</CompanyCard>
               <CompanyCard img={'/studioLogos/mgmStudios.png'}>MGM Studios</CompanyCard>
+              <CompanyCard img={'/studioLogos/a24.png'}>A24</CompanyCard>
               {/* <CompanyCard>New Line Cinema?</CompanyCard> */}
               <CompanyCard img={'/studioLogos/dreamworks3.png'}>DreamWorks Animation</CompanyCard>
               <CompanyCard img={'/studioLogos/pixar2.png'}>Pixar Studios</CompanyCard>

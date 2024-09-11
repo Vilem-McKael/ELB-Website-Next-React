@@ -7640,7 +7640,7 @@ export const FeaturedMedia = {
             link: ''
         },
         { title: "30 Seconds to Mars", img: '/creditImages/30seconds.jpg', roles: [r.Contractor, r.Vocalist, r.Arranger], notes: '', year: '', link: '' },
-        { title: "Portugal. The Man", img: '/creditImages/portugalTheMan.png', roles: [r.Vocalist, r.Conductor], notes: '', year: '', link: '' },
+        { title: "Portugal. The Man", img: '/creditImages/portugalTheMan.png', roles: [r.Contractor, r.Vocalist, r.Conductor], notes: '', year: '', link: '' },
         { title: "Lalo Schifrin", img: '/creditImages/laloShifrin.webp', roles: [r.Vocalist, r.Soloist], notes: '', year: '', link: '' },
         { title: "Tower of Power", img: '/creditImages/towerOfPower.webp', roles: [r.Vocalist], notes: '', year: '', link: '' },
         { title: "Herbie Hancock", img: '/creditImages/herbieHancock2.jpeg', roles: [r.Vocalist, r.Vocoder], notes: '', year: '', link: '' },

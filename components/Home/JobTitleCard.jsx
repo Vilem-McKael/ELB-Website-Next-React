@@ -4,9 +4,9 @@ import {selectedWorks} from '../../data/homePageCredits.js'
 
 export default function JobTitleCard({bgColor, alignment, title, tag, description, image, imageDescription, featuredWorks, imageOrigin}) {
   return (
-    <div id={tag} className={`flex flex-row md:h-[560px] w-full max-w-[1100px]`}>
+    <div className={`flex flex-row md:h-[560px] w-full max-w-[1100px]`}>
+        <div id={tag} className='translate-y-[300px] sm:-translate-y-[200px] h-0 w-0'></div>
         {alignment === 'left' ?
-
         <div className='flex flex-col-reverse md:flex-row h-full w-full'> 
 
             {/* LEFT SIDE ALIGNMENT */}

@@ -75,7 +75,7 @@ export default function ContactPage() {
       </form>}
       </div>
 
-      <div className='w-full absolute bottom-0'>
+      <div className='w-full bottom-0'>
         <Footer />
       </div>
     </div>
