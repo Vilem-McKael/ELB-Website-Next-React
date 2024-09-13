@@ -45,7 +45,7 @@ export default function FeaturedCredits() {
             </div>
 
             {/* RECENT WORK CARDS */}
-            <div className='w-full md:w-[750px] lg:w-[1000px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 justify-center items-start pb-12 gap-y-8 place-items-center'>
+            <div className='w-full md:w-[750px] lg:w-[1000px] grid grid-cols-2 lg:grid-cols-3 justify-center items-start pb-12 gap-y-8 place-items-center'>
                 <FeaturedWorkCardHome key={0} image={'/creditImages/dune2.webp'} title={'Dune 2'} roles={[r.Vocalist, r.Contractor]}/>
                 <FeaturedWorkCardHome key={1} image={'/creditImages/avatar2.webp'} title={'Avatar: The Way of Water'} roles={[r.Vocalist, r.Contractor, r.Contractor]}/>
                 <FeaturedWorkCardHome key={2} image={'/creditImages/signOfTheTimes2.webp'} title={'Harry Styles'} work={'Sign of the Times'}  roles={[r.Contractor, r.Conductor]}/>
@@ -70,7 +70,7 @@ export default function FeaturedCredits() {
             </div>
 
             {/* CLASSIC CREDITS CARDS */}
-            <div className='w-full md:w-[750px] lg:w-[1000px] justify-center items-start grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 pb-12 gap-y-8 place-items-center'>
+            <div className='w-full md:w-[750px] lg:w-[1000px] justify-center items-start grid grid-cols-2 lg:grid-cols-3 pb-12 gap-y-8 place-items-center'>
                 <FeaturedWorkCardHome key={0} image={'/creditImages/trueBlue.jpg'} title={'Madonna'} work={'True Blue'} roles={[r.Vocalist, r.Arranger]}/>
                 <FeaturedWorkCardHome key={1} image={'/creditImages/backOnTheBlock.png'} title={'Quincy Jones'} work={'Back On the Block'} roles={[r.Vocalist]}/>
                 <FeaturedWorkCardHome key={2} image={'/creditImages/invincible.jpg'} title={'Michael Jackson'} work={'Invincible'}  roles={[r.Vocalist]}/>
