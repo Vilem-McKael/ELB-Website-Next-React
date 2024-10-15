@@ -464,6 +464,10 @@ export const videoData = [
         videoId: "RsQC6F9d6JE"
     },
     {
+        title: "Imba Wimbo / Windsong (Mighty Joe Young)",
+        description: "Sung by Edie Lehmann Boddicker, part of James Horner's score for Mighty Joe Young. Edie's vocals were lip-synced by Charlize Theron."
+    },
+    {
         title: "Mike Oldfield ( Tubular bells II - Live in Edinburgh Castle 1992 )",
         description: `Tubular Bells II, The Performance Live at Edinburgh Castle is a live concert video by Mike Oldfield released in 1992.
 The video is a full faithful performance from the premiere concert of the Tubular Bells II album at Edinburgh Castle. The tour continued until the following October. John Gordon Sinclair performed the part of the Master of Ceremonies at the concert; on the album Alan Rickman was the Master of Ceremonies. The concert finishes with a reprise of "The Bell". Eight thousand people were at the concert in Edinburgh, Scotland.`,
@@ -530,12 +534,20 @@ export const audioData = [
         image: "/creditImages/californiaRaisins2.jpeg"
     },
     {
-        title: "Gorgeous, Faithful, Classy, Smart and Sweet.mp3",
+        title: "Gorgeous, Faithful, Classy, Smart and Sweet",
         artist: "Robert Kraft feat. Edie Lehmann",
         album: "N/A",
         description: "",
         audioFile: "/audio/Gorgeous, Faithful, Classy, Smart and Sweet by Robert Kraft.mp3",
         image: "/composerImages/robertKraft.jpg"
+    },
+    {
+        title: "Old Boyfriends",
+        artist: "Tom Waits feat. Edie Lehmann",
+        album: "One From The Heart (Movie Soundtrack)",
+        description: "",
+        audioFile: "/audio/03 Old Boyfriends.mp3",
+        image: "/creditImages/oneFromTheHeart.webp"
     },
     {
         title: "Night Time Is The Right Time",

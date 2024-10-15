@@ -7851,7 +7851,7 @@ export const FeaturedMedia = {
         },
         {
             title: "Germaine Franco",
-            img: '/composerImages/germaineFranco.webp',
+            img: '/composerImages/germaineFranco3.jpg',
             roles: [],
             notes: "",
             year: '',
