@@ -52,7 +52,7 @@ export const edieImages = [
     },
     {
         image: "/edieImages/edie12.jpeg",
-        description: "With Quincy Jones at an SLC event",
+        description: "With Quincy Jones at an SCL event",
     },
     {
         image: "/edieImages/edie13.jpeg",
