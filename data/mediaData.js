@@ -108,7 +108,7 @@ export const edieImages = [
     },
     {
         image: "/edieImages/Billie Eilish Grammys 2020 Group.jpg",
-        description: "Billy Eilish group Live at the Grammy's",
+        description: "Billie Eilish group Live at the Grammy's",
     },
     {
         image: "/edieImages/Coachella Yeah Yeah Yeahs.jpeg",
