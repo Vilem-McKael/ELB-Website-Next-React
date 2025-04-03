@@ -100,7 +100,7 @@ export default function AboutPage() {
               <div>
               <AboutImageContainer image={'/edieImages/The Lion King Capitol Records.jpg'} width={960} height={674} twcss={'w-auto sm:h-[200px] lg:h-[300px]'} margin={'mr-6'} float={'left'} description={"With Hans Zimmer and Lion King Choir"} />
               {/* <Image src='/edieImages/The Lion King Capitol Records.jpg' width={960} height={674} className='w-full sm:w-auto sm:h-[200px] lg:h-[300px] sm:float-left mr-6 my-4'/> */}
-                Some of her recent work with esteemed composers Hans Zimmer, John Powell, Danny Elfman, Michael Abels, Germaine Franco includes Dune, Dune 2, Encanto, Us, Nope, The Grinch, Jon Favreau&apos;s The Lion King, Hidden Figures, Solo - A Star Wars Story, Migragion, The Call of the Wild, La La Land, and many more. Additional projects include works for Netflix Animation, Nickelodeon, The Grammy Awards, The Voice, American Idol, Jimmy Kimmel and James Corden.<br />
+                Some of her recent work with esteemed composers Hans Zimmer, John Powell, Danny Elfman, Michael Abels, Germaine Franco includes Dune, Dune 2, Encanto, Us, Nope, The Grinch, Jon Favreau&apos;s The Lion King, Hidden Figures, Solo - A Star Wars Story, Migration, The Call of the Wild, La La Land, and many more. Additional projects include works for Netflix Animation, Nickelodeon, The Grammy Awards, The Voice, American Idol, Jimmy Kimmel and James Corden.<br />
                 </div>
                 <br />
                 <div>
