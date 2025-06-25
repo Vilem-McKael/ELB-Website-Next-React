@@ -2,16 +2,52 @@ import React from 'react'
 
 export default function UpAndComing() {
   return (
-    <div id='up-and-coming' className='flex flex-col w-full items-center mx-8'>
+    <div id='news' className='flex flex-col w-full items-center mx-8'>
 
         {/* SECTION TITLE: UP & COMING */}
         <div className='sticky top-[80px] mobileLandscape:top-0 sm:top-[150px] w-full border-b-[8px] flex justify-center items-center px-4 py-4 sm:px-16 border-green bg-light7 mb-8 md:mb-16'>
             
             <div className='h-[20px] w-[20px] rounded-full border-green bg-green/50 border-[2px] mr-4'></div>
             <div className='w-full max-w-[1000px] text-3xl sm:text-4xl text-start text-black font-normal'>
-            Up & Coming / Current
+            News
             </div>
 
+        </div>
+
+        <div className='flex flex-col items-center md:flex-row text-wrap w-full sm:w-[640px] md:w-full lg:w-[900px] xl:w-[1100px] md:h-[500px] mb-8 md:shadow-lg md:shadow-gray-500'>
+            <img src={'/creditImages/httydla2.webp'} className='h-full w-full sm:w-[400px] md:w-[400px] object-cover shrink-0 object-bottom'/>
+            <div className='flex flex-col w-full sm:w-[400px] md:w-full h-full justify-center items-start p-4 sm:px-0 md:py-0 md:px-8 object-left-top'>
+                <div className='text-4xl font-semibold'>
+                    How To Train Your Dragon (2025)
+                </div>
+                <div className='pt-1 text-xl italic font-medium md:ml-4 font-barlow'>
+                    Vocal Contractor & Vocalist
+                </div>
+                <div className='pt-2 text-md italic md:ml-8 font-barlow'>
+                    A live action remake of the beloved classic. <span className='font-bold'>IMDB: </span>As an ancient threat endangers both Vikings and dragons alike on the isle of Berk, the friendship between Hiccup, an inventive Viking, and Toothless, a Night Fury dragon, becomes the key to both species forging a new future together.
+                </div>
+                <div className='md:ml-8 text-sm pt-4 font-barlow'>
+                    In theaters nationwide as of June 13, 2025
+                </div>
+            </div>
+        </div>
+
+        <div className='flex flex-col items-center md:flex-row text-wrap w-full sm:w-[640px] md:w-full lg:w-[900px] xl:w-[1100px] md:h-[500px] mb-8 md:shadow-lg md:shadow-gray-500'>
+            <img src={'/creditImages/americanSymphony2.png'} className='h-full w-full sm:w-[400px] md:w-[400px] object-cover shrink-0 object-bottom'/>
+            <div className='flex flex-col w-full sm:w-[400px] md:w-full h-full justify-center items-start p-4 sm:px-0 md:py-0 md:px-8 object-left-top'>
+                <div className='text-4xl font-semibold'>
+                    American Symphony: The Album
+                </div>
+                <div className='pt-1 text-xl italic font-medium md:ml-4 font-barlow'>
+                    Vocal Contractor & Vocalist
+                </div>
+                {/* <div className='pt-2 text-md italic md:ml-8 font-barlow'>
+                    <span className='font-bold'>IMDB: </span>After two decades as one of the most beloved and enduring musicals on the stage, Wicked makes its long-awaited journey to the big screen as a spectacular, generation-defining two-part cinematic event this holiday season.
+                </div> */}
+                <div className='md:ml-8 text-sm pt-4 font-barlow'>
+                    Coming Soon
+                </div>
+            </div>
         </div>
 
         <div className='flex flex-col items-center md:flex-row text-wrap w-full sm:w-[640px] md:w-full lg:w-[900px] xl:w-[1100px] md:h-[500px] mb-8 md:shadow-lg md:shadow-gray-500'>
@@ -27,12 +63,12 @@ export default function UpAndComing() {
                     <span className='font-bold'>IMDB: </span>After two decades as one of the most beloved and enduring musicals on the stage, Wicked makes its long-awaited journey to the big screen as a spectacular, generation-defining two-part cinematic event this holiday season.
                 </div>
                 <div className='md:ml-8 text-sm pt-4 font-barlow'>
-                    In theaters nationwide on November 22, 2024
+                    Watch now with a Peacock subscription, or buy it with AppleTV, Google Play, or Amazon Prime Video
                 </div>
             </div>
         </div>
 
-        <div className='flex flex-col items-center md:flex-row text-wrap w-full sm:w-[640px] md:w-full lg:w-[900px] xl:w-[1100px] md:h-[500px] mb-8 md:shadow-lg md:shadow-gray-500'>
+        {/* <div className='flex flex-col items-center md:flex-row text-wrap w-full sm:w-[640px] md:w-full lg:w-[900px] xl:w-[1100px] md:h-[500px] mb-8 md:shadow-lg md:shadow-gray-500'>
             <img src={'/creditImages/dannyElfmanFromB2B.jpg'} className='h-full w-full sm:w-[400px] md:w-[400px] object-cover shrink-0 object-center'/>
             <div className='flex flex-col w-full sm:w-[400px] md:w-full h-full justify-center items-start p-4 sm:px-0 md:py-0 md:px-8 object-left-bottom'>
                 <div className='text-4xl font-semibold'>
@@ -64,12 +100,14 @@ export default function UpAndComing() {
                 </div>
                 <div className='w-full md:ml-8 text-sm pt-4 flex flex-col lg:flex-row items-center md:items-start font-barlow'>
                     <div className=''>August 10th at the Shrine Auditorium</div>
-                    {/* <img src={'/studioLogos/netflix2.png'} className='w-[100px] pt-2 lg:pt-0 md:pl-2'/> */}
+                    <img src={'/studioLogos/netflix2.png'} className='w-[100px] pt-2 lg:pt-0 md:pl-2'/> 
                 </div>
             </div>
         </div>
 
         {/* 1: THE ACOLYTE */}
+
+        {/*
         <div className='flex flex-col w-full sm:w-[640px] md:w-full lg:w-[900px] xl:w-[1100px] items-center' style={{animation: '3s slide-in'}}>
             <div className='flex flex-col items-center md:flex-row text-wrap w-full sm:w-[640px] md:w-full lg:w-[900px] xl:w-[1100px] md:h-[500px] mb-8 md:shadow-lg md:shadow-gray-500'>
                 
@@ -89,14 +127,14 @@ export default function UpAndComing() {
                         <img src={'/studioLogos/disneyPlus.png'} className='w-[100px] pt-2 lg:pt-0 lg:pl-2'/>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             {/* 2: KINGDOM OF THE PLANET OF THE APES */}
             
 
             {/* 3: THELMA THE UNICORN */}
             
-        </div>
+        {/* </div> */}
     </div>
   )
 }

@@ -6,10 +6,14 @@ export const GallerySubpage = {
 }
 
 export const edieImages = [
-    {
-        image: "/edieImages/edie1.jpeg",
-        description: "Half of the choir for Avatar 2: The Way of Water (basses and baritones got dismissed early!)",
+     {
+        image: "/edieImages/elbHowToTrain2025.jpg",
+        description: "ELB in the booth with John Powell & recording crew, after a successful recording session for How To Train Your Dragon (2025)",
     },
+    // {
+    //     image: "/edieImages/edie1.jpeg",
+    //     description: "Half of the choir for Avatar 2: The Way of Water (basses and baritones got dismissed early!)",
+    // },
     {
         image: "/edieImages/edie2.jpeg",
         description: "With Mike Martin from Casio at the Namm Show in Anaheim",

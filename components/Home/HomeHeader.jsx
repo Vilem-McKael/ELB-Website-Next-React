@@ -86,7 +86,7 @@ export default function HomeHeader() {
         <div style={{backgroundImage: 'url("/backgrounds/cream background3.jpeg")', backgroundSize: "cover", backgroundRepeat: 'repeat-x'}} className='w-full sm:h-[150px] md:h-[150px] max-w-[1100px] gap-4 flex flex-col sm:flex-row md:flex-row items-center justify-evenly text-sm font-barlow py-4 font-default px-4'>
 
             {/* UP & COMING */}
-            <HomeSectionHashLink to={'/#up-and-coming'} title={'Up & Coming'} color={'#56A29A'}/>
+            <HomeSectionHashLink to={'/#news'} title={'News'} color={'#56A29A'}/>
 
             {/* ROLES & HIGHLIGHTS */}
             <HomeSectionHashLink to={'/#roles-&-highlights'} title={'Roles & Highlights'} color={'#BB6F24'} />
