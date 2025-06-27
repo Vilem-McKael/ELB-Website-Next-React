@@ -506,6 +506,14 @@ The video is a full faithful performance from the premiere concert of the Tubula
 
 export const audioData = [
     {
+        title: "Memory Of Love",
+        artist: "Lalo Schifrin",
+        album: "No One Home",
+        description: "Solo Vocals by Edie Lehmann Boddicker - Rest In Peace Lalo",
+        audioFile: '/audio/Memory Of Love.mp3',
+        image: "/creditImages/noOneHome.jpg"
+    },
+    {
         title: "Heaven Is A Place On Earth",
         artist: "Belinda Carlisle",
         album: "Heaven On Earth",
