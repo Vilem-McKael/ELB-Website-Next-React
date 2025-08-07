@@ -24,7 +24,7 @@ export default function MobileBurgerMenu({isShowingSlideOutMenu, updateIsShowing
     //         <i className='flaticon-menu text-light7' onClick={handleOnCLick}></i>
     //     </div>
     // </div>//nice
-    <div className='w-full h-[80px] bg-light7 fixed flex flex-row justify-between items-center px-2 z-50 border-b border-black'>
+    <div className='w-full h-[80px] bg-light7 fixed flex flex-row justify-between items-center px-2 z-30 border-b border-black'>
       <Link href='/' className='flex flex-row items-end'>
           <img src={'/deruta/deruta tile.webp'} className='w-[58px] h-[58px]'/>
           <div className='flex-col justify-end text-md text-black text-leading leading-[0.7] bg-opacity-95 font-normal pl-4 w-full h-[55px]'>
@@ -42,7 +42,7 @@ export default function MobileBurgerMenu({isShowingSlideOutMenu, updateIsShowing
       <div className='cursor-pointer' onClick={handleOnCLick}>
         <div className='bg-teal4 text-light7 px-2 py-1 rounded-md flex items-center'>
           <div className='mr-2 text-lg'>Menu</div>
-          <Menu className='fill-light7 z-50 h-[16px] w-[16px]'/>
+          <Menu className='fill-light7 z-30 h-[16px] w-[16px]'/>
         </div>
       </div>
     </div>

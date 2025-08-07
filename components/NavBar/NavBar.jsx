@@ -8,7 +8,7 @@ import Image from 'next/image';
 
 export default function NavBar({updateIsShowingSlideOutMenu, player, handleSetPlayer}) {
   return (
-    <div className='flex w-full h-[150px] justify-between items-end fixed bg-gradient-to-b from-light7 from-60% to-[#f4f4eb] to-95% border-b-[1px] border-black text-black pl-8 pr-7 z-50'>
+    <div className='flex w-full h-[150px] justify-between items-end fixed bg-gradient-to-b from-light7 from-60% to-[#f4f4eb] to-95% border-b-[1px] border-black text-black pl-8 pr-7 z-30'>
         
         {/* LEFT SIDE - NAME AND DECORATIVE TILE */}
         <Link href='/' className='flex flex-row items-end pb-4' onClick={() => {

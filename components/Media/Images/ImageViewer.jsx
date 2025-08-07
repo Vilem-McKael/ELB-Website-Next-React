@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { edieImages } from '../../../data/mediaData'
 
 import { useRouter } from 'next/navigation';
@@ -6,7 +6,7 @@ import { useRouter } from 'next/navigation';
 import RightArrow from '@/public/icons/056-right-arrow.svg'
 import LeftArrow from '@/public/icons/057-left-arrow.svg'
 
-export default function ImageViewer({imgIndex, updateSelectedImageIndex }) {
+export default function ImageViewer({imgIndex, updateSelectedImageIndex, toggleIsShowingImageModal}) {
 
     const router = useRouter();
 
@@ -21,24 +21,29 @@ export default function ImageViewer({imgIndex, updateSelectedImageIndex }) {
       }
 
     const handleOnClick = () => {
-        router.push('/media/images/fullscreen/' + imgIndex)
+        console.log('toggleIsShowingImageModal:', toggleIsShowingImageModal);
+        toggleIsShowingImageModal()
+        // router.push('/media/images/fullscreen/' + imgIndex)
     }
 
   return (
     <div id='image-viewer' className='flex flex-col justify-start w-screen h-[540px] sm:h-[640px] mobileLandscape:h-[440px] md:h-[640px] sm:px-16 mb-8 mt-4'>
-        <div id='image-viewer' className='h-[500px] sm:h-[640px] mobileLandscape:h-[400px] md:h-[600px] flex flex-row items-center justify-between border-black/60 border'>
+        
+        <div className='h-[500px] sm:h-[640px] mobileLandscape:h-[400px] md:h-[600px] flex flex-row items-center justify-between border-black/60 border'>
             
             {/* PREVIOUS IMAGE BUTTON */}
             <button className='flex flex-col items-center justify-center w-[36px] h-[50px] rounded-r-full border-r border-y border-black sm:border-none sm:rounded-none sm:h-full sm:w-[80px] bg-[#f8f8f1] sm:bg-transparent sm:hover:bg-gold group absolute left-0 sm:static z-10 duration-150' onClick={handleShowPrev}>
                 <LeftArrow className='flaticon-left-arrow w-[24px] h-[24px] sm:w-[36px] sm:h-[36px] fill-black sm:group-hover:scale-110 transition duration-150'/>
             </button>
 
+
+
             {/* VIEWER */}
             <div className='flex flex-row justify-center items-center w-[100%] h-[100%] bg-transparent relative'>
 
                 {/* MAIN IMAGE BODY */}
                 <div className='flex flex-col w-[100%] h-[100%] items-center justify-center cursor-pointer' onClick={handleOnClick}>
-                    <img src={edieImages[imgIndex].image} className='max-h-[500px] sm:max-h-[600px]'/>
+                    <img src={edieImages[imgIndex].image} alt={edieImages[imgIndex].description} className='max-h-[500px] sm:max-h-[600px]'/>
                 </div>
 
                 

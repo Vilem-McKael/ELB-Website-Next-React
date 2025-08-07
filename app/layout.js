@@ -1,4 +1,5 @@
 import "@/app/globals.css";
+import { createPortal } from "react-dom";
 
 export const metadata = {
   title: "Edie Lehmann Boddicker",

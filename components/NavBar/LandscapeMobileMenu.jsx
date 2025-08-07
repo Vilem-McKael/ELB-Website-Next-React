@@ -12,9 +12,9 @@ export default function LandscapeMobileMenu({isShowingSlideOutMenu, updateIsShow
 
   return (
     <>
-      {!isShowingSlideOutMenu && <div className='fixed top-2 right-2 z-50'>
-        <div className='bg-teal4 text-light7 px-2 py-2 rounded-md z-50 relative fill-light7' onClick={handleOnCLick}>
-          <Menu className='flaticon-menu-2 z-50 h-[28px] w-[28px] fill-light7'/>
+      {!isShowingSlideOutMenu && <div className='fixed top-2 right-2 z-30'>
+        <div className='bg-teal4 text-light7 px-2 py-2 rounded-md z-30 relative fill-light7' onClick={handleOnCLick}>
+          <Menu className='flaticon-menu-2 z-30 h-[28px] w-[28px] fill-light7'/>
         </div>
       </div>}
     </>
