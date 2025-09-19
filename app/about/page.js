@@ -110,6 +110,9 @@ export default function AboutPage() {
                 <div className='mb-16'>
                 Edie gives all glory to God for the rich experiences she has had, and continues to have, in her life, her family and her community, and the opportunities to use His gifts of her musical artistry and abilities.<br/>
               </div>
+              <div className=' italic text-sm'>
+                Edie is honored to have been inducted into the Buffalo Music Hall of Fame. To read more about Edie's professional and personal life, we invite you to <a href='https://bmhof.org/Inductees-B/Edie-Lehmann-Boddicker.html' className='text-blue-700 underline'>visit their website by clicking here.</a><br /><br />
+              </div>
             </div>
             <div className='flex flex-col items-center w-full mb-12'>
             <Image src='/edieImages/Sick New World DE.jpeg' width={5712} height={4284} className='w-full max-w-[700px] my-4 mb-2'/>
