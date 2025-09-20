@@ -15,6 +15,60 @@ export default function UpAndComing() {
         </div>
 
         <div className='flex flex-col items-center md:flex-row text-wrap w-full sm:w-[640px] md:w-full lg:w-[900px] xl:w-[1100px] md:h-[500px] mb-8 md:shadow-lg md:shadow-gray-500'>
+            <img src={'/creditImages/avatar3.webp'} className='h-full w-full sm:w-[400px] md:w-[400px] object-cover shrink-0 object-bottom'/>
+            <div className='flex flex-col w-full sm:w-[400px] md:w-full h-full justify-center items-start p-4 sm:px-0 md:py-0 md:px-8 object-left-top'>
+                <div className='text-4xl font-semibold'>
+                    Avatar: Fire and Ash
+                </div>
+                <div className='pt-1 text-xl italic font-medium md:ml-4 font-barlow'>
+                    Vocal Contractor & Vocalist
+                </div>
+                <div className='pt-2 text-md italic md:ml-8 font-barlow'>
+                    <span className='font-bold'>IMDB: </span>Jake and Neytiri's family grapples with grief after Neteyam's death, encountering a new, aggressive Na&apos;vi tribe, the Ash People, who are led by the fiery Varang, as the conflict on Pandora escalates and a new moral focus emerges.
+                </div>
+                <div className='md:ml-8 text-sm pt-4 font-barlow'>
+                    Expected to premiere in theaters on December 19, 2025
+                </div>
+            </div>
+        </div>
+
+        <div className='flex flex-col items-center md:flex-row text-wrap w-full sm:w-[640px] md:w-full lg:w-[900px] xl:w-[1100px] md:h-[500px] mb-8 md:shadow-lg md:shadow-gray-500'>
+            <img src={'/creditImages/wickedForGood1 copy.jpg'} className='h-full w-full sm:w-[400px] md:w-[400px] object-cover shrink-0 object-top'/>
+            <div className='flex flex-col w-full sm:w-[400px] md:w-full h-full justify-center items-start p-4 sm:px-0 md:py-0 md:px-8 object-left-top'>
+                <div className='text-4xl font-semibold'>
+                    Wicked: For Good
+                </div>
+                <div className='pt-1 text-xl italic font-medium md:ml-4 font-barlow'>
+                    Vocal Contractor & Vocalist
+                </div>
+                <div className='pt-2 text-md italic md:ml-8 font-barlow'>
+                    <span className='font-bold'>IMDB: </span>Elphaba, the future Wicked Witch of the West and her relationship with Glinda, the Good Witch of the North. The second of a two-part feature film adaptation of the Broadway musical.
+                </div>
+                <div className='md:ml-8 text-sm pt-4 font-barlow'>
+                    In theaters November 21, 2025
+                </div>
+            </div>
+        </div>
+
+        <div className='flex flex-col items-center md:flex-row text-wrap w-full sm:w-[640px] md:w-full lg:w-[900px] xl:w-[1100px] md:h-[500px] mb-8 md:shadow-lg md:shadow-gray-500'>
+            <img src={'/edieImages/Kimmel pic copy.jpeg'} className='h-full w-full sm:w-[400px] md:w-[400px] object-cover shrink-0 object-bottom'/>
+            <div className='flex flex-col w-full sm:w-[400px] md:w-full h-full justify-center items-start p-4 sm:px-0 md:py-0 md:px-8 object-left-top'>
+                <div className='text-4xl font-semibold'>
+                    Jimmy Kimmel Live!
+                </div>
+                <div className='pt-1 text-xl italic font-medium md:ml-4 font-barlow'>
+                    Vocal Contractor, Coach & Conductor
+                </div>
+                <div className='pt-2 text-md italic md:ml-8 font-barlow'>
+                    Contracted & conducted a group of girls between ages 5 and 8, who sang backing vocals for The Marias&apos; appearance on JKL! for the live performance of their hauntingly beautiful song, Sienna.
+                </div>
+                <div className='md:ml-8 text-sm pt-4 font-barlow'>
+                    <a href='https://www.youtube.com/watch?v=PsDHm58iwcA' className='text-blue-600 underlined'>Watch the full performance on YouTube</a>
+                </div>
+            </div>
+        </div>
+
+        <div className='flex flex-col items-center md:flex-row text-wrap w-full sm:w-[640px] md:w-full lg:w-[900px] xl:w-[1100px] md:h-[500px] mb-8 md:shadow-lg md:shadow-gray-500'>
             <img src={'/creditImages/httydla2.webp'} className='h-full w-full sm:w-[400px] md:w-[400px] object-cover shrink-0 object-bottom'/>
             <div className='flex flex-col w-full sm:w-[400px] md:w-full h-full justify-center items-start p-4 sm:px-0 md:py-0 md:px-8 object-left-top'>
                 <div className='text-4xl font-semibold'>
@@ -27,7 +81,7 @@ export default function UpAndComing() {
                     A live action remake of the beloved classic. <span className='font-bold'>IMDB: </span>As an ancient threat endangers both Vikings and dragons alike on the isle of Berk, the friendship between Hiccup, an inventive Viking, and Toothless, a Night Fury dragon, becomes the key to both species forging a new future together.
                 </div>
                 <div className='md:ml-8 text-sm pt-4 font-barlow'>
-                    In theaters nationwide as of June 13, 2025
+                    Rent or Buy it today on Amazon Prime Video
                 </div>
             </div>
         </div>
@@ -50,23 +104,7 @@ export default function UpAndComing() {
             </div>
         </div>
 
-        <div className='flex flex-col items-center md:flex-row text-wrap w-full sm:w-[640px] md:w-full lg:w-[900px] xl:w-[1100px] md:h-[500px] mb-8 md:shadow-lg md:shadow-gray-500'>
-            <img src={'/creditImages/wicked2.webp'} className='h-full w-full sm:w-[400px] md:w-[400px] object-cover shrink-0 object-bottom'/>
-            <div className='flex flex-col w-full sm:w-[400px] md:w-full h-full justify-center items-start p-4 sm:px-0 md:py-0 md:px-8 object-left-top'>
-                <div className='text-4xl font-semibold'>
-                    Wicked
-                </div>
-                <div className='pt-1 text-xl italic font-medium md:ml-4 font-barlow'>
-                    Vocal Contractor & Vocalist
-                </div>
-                <div className='pt-2 text-md italic md:ml-8 font-barlow'>
-                    <span className='font-bold'>IMDB: </span>After two decades as one of the most beloved and enduring musicals on the stage, Wicked makes its long-awaited journey to the big screen as a spectacular, generation-defining two-part cinematic event this holiday season.
-                </div>
-                <div className='md:ml-8 text-sm pt-4 font-barlow'>
-                    Watch now with a Peacock subscription, or buy it with AppleTV, Google Play, or Amazon Prime Video
-                </div>
-            </div>
-        </div>
+        
 
         {/* <div className='flex flex-col items-center md:flex-row text-wrap w-full sm:w-[640px] md:w-full lg:w-[900px] xl:w-[1100px] md:h-[500px] mb-8 md:shadow-lg md:shadow-gray-500'>
             <img src={'/creditImages/dannyElfmanFromB2B.jpg'} className='h-full w-full sm:w-[400px] md:w-[400px] object-cover shrink-0 object-center'/>
