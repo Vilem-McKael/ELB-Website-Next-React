@@ -24,7 +24,7 @@ export default function UpAndComing() {
                     Vocal Contractor & Vocalist
                 </div>
                 <div className='pt-2 text-md italic md:ml-8 font-barlow'>
-                    <span className='font-bold'>IMDB: </span>Jake and Neytiri's family grapples with grief after Neteyam's death, encountering a new, aggressive Na&apos;vi tribe, the Ash People, who are led by the fiery Varang, as the conflict on Pandora escalates and a new moral focus emerges.
+                    <span className='font-bold'>IMDB: </span>Jake and Neytiri's family grapples with grief after Neteyam&apos;s death, encountering a new, aggressive Na&apos;vi tribe, the Ash People, who are led by the fiery Varang, as the conflict on Pandora escalates and a new moral focus emerges.
                 </div>
                 <div className='md:ml-8 text-sm pt-4 font-barlow'>
                     Expected to premiere in theaters on December 19, 2025
