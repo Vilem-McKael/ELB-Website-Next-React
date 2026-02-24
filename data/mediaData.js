@@ -6,6 +6,10 @@ export const GallerySubpage = {
 }
 
 export const edieImages = [
+    {
+        image: "/edieImages/hudsonMohawkeSession.jpeg",
+        description: "ELB & singers with Hudson Mohawke for upcoming project"
+    },
      {
         image: "/edieImages/elbHowToTrain2025.jpg",
         description: "ELB in the booth with John Powell & recording crew, after a successful recording session for How To Train Your Dragon (2025)",

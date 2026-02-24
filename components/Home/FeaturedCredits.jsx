@@ -37,7 +37,7 @@ export default function FeaturedCredits() {
         <div id='recent-work' className='flex flex-col w-full items-center text-black'>
 
             {/* SECTION TITLE: RECENT WORK */}
-            <div className='sticky top-[80px] mobileLandscape:top-0 sm:top-[150px] flex px-4 sm:px-16 py-4 mb-12 w-full items-center justify-center border-b-[8px] bg-light7 border-terracotta'>
+            <div className='sticky top-[80px] mobileLandscape:top-0 sm:top-[120px] flex px-4 sm:px-16 py-4 mb-12 w-full items-center justify-center border-b-[8px] bg-light7 border-terracotta'>
                 <div className='h-[20px] w-[20px] rounded-full border-terracotta border-[2px] bg-terracotta/50 shrink-0 mr-4'></div>
                 <div className='w-full max-w-[1000px] text-3xl sm:text-4xl flex justify-start text-start text-black font-normal'>
                     Recent Work
@@ -62,7 +62,7 @@ export default function FeaturedCredits() {
         <div id='classic-credits' className='w-full flex flex-col items-center text-black'>
 
             {/* SECTION TITLE: CLASSIC CREDITS */}
-            <div className='sticky top-[80px] mobileLandscape:top-0 sm:top-[150px] flex px-4 sm:px-16 py-4 mb-12 w-full items-center justify-center border-b-[8px] border-darkBlue3 bg-light7'>
+            <div className='sticky top-[80px] mobileLandscape:top-0 sm:top-[120px] flex px-4 sm:px-16 py-4 mb-12 w-full items-center justify-center border-b-[8px] border-darkBlue3 bg-light7'>
                 <div className='h-[20px] w-[20px] rounded-full border-darkBlue3 border-[2px] bg-darkBlue3/50 shrink-0 mr-4'></div>
                 <div className='w-full max-w-[1000px] text-3xl sm:text-4xl flex justify-start text-start text-black font-normal'>
                     Classic Credits

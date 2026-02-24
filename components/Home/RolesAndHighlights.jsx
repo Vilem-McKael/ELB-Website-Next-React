@@ -7,7 +7,7 @@ export default function RolesAndHighlights() {
     <div id='roles-&-highlights' className='flex flex-col w-full items-center'>
 
       {/* SECTION TITLE: ROLES & HIGHLIGHTS */}
-        <div className='sticky top-[80px] mobileLandscape:top-0 sm:top-[150px] flex py-4 px-4 sm:px-16 w-full justify-center items-center border-b-[8px] border-teal4 bg-light7 z-20'>
+        <div className='sticky top-[80px] mobileLandscape:top-0 sm:top-[120px] flex py-4 px-4 sm:px-16 w-full justify-center items-center border-b-[8px] border-teal4 bg-light7 z-20'>
 
             <div className='h-[20px] w-[20px] rounded-full border-teal4 border-[2px] bg-teal4/50 shrink-0 mr-4'></div>
             <div className='w-full max-w-[1000px] text-3xl sm:text-4xl flex justify-start text-start text-black font-normal'>

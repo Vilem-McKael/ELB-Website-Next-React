@@ -8125,9 +8125,24 @@ export const FeaturedMedia = {
     ],
     Film: [
         {
-            title: "Nope",
-            img: '/creditImages/nope.jpeg',
+            title: "Avatar: Fire And Ash",
+            img: '/creditImages/avatar3.png',
             roles: [r.Contractor, r.Conductor, r.Vocalist],
+            notes: "",
+            year: '',
+            link: ''
+        },{
+            title: "Wicked: For Good",
+            img: '/creditImages/wickedForGood.jpg',
+            roles: [r.Contractor, r.Vocalist],
+            notes: "",
+            year: '',
+            link: ''
+        },
+        {
+            title: "In Your Dreams",
+            img: '/creditImages/inYourDreamsCredit.jpg',
+            roles: [r.Contractor, r.Conductor],
             notes: "",
             year: '',
             link: ''
@@ -8766,6 +8781,14 @@ export const FeaturedMedia = {
             title: "The Simpsons",
             img: '/creditImages/thesimpsons.webp',
             roles: [r.Vocalist],
+            notes: "",
+            year: '',
+            link: ''
+        },
+        {
+            title: "The Acolyte",
+            img: '/creditImages/theAcolyte.jpeg',
+            roles: [r.Vocalist, r.Contractor],
             notes: "",
             year: '',
             link: ''

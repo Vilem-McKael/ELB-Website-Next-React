@@ -23,7 +23,7 @@ function RootLayout({children}) {
         
           <UniversalNavbar />
         
-        <div className="pt-[80px] mobileLandscape:pt-0 sm:pt-[150px]">
+        <div className="pt-[80px] mobileLandscape:pt-0 sm:pt-[120px]">
           {children}
         </div>
         <ScrollToTopButton/>

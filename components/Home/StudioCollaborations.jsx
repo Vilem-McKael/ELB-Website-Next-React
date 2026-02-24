@@ -6,7 +6,7 @@ export default function StudioCollaborations() {
     <div id='studio-collaborations' className='w-full flex flex-col items-center bg-searchlights bg-cover bg-center'>
 
         {/* SECTION TITLE: STUDIO COLLABORATIONS */}
-        <div className='sticky top-[80px] mobileLandscape:top-0 sm:top-[150px] flex py-4 px-4 sm:px-16 w-full items-center justify-center border-b-[8px] border-gold bg-light7 h-full'>
+        <div className='sticky top-[80px] mobileLandscape:top-0 sm:top-[120px] flex py-4 px-4 sm:px-16 w-full items-center justify-center border-b-[8px] border-gold bg-light7 h-full'>
             <div className='h-[20px] w-[20px] rounded-full border-gold border-[2px] bg-gold/50 shrink-0 mr-4'></div>
             <div className='w-full max-w-[1000px] text-3xl sm:text-4xl flex justify-start text-start text-black font-normal'>
                 Studio Collaborations

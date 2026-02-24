@@ -23,7 +23,7 @@ export default function BurgerBar({updateIsShowingSlideOutMenu}) {
     // }}
 
   return (
-    <div id="top" className='flex w-full h-[150px] justify-between items-end fixed bg-light7 text-black pl-8 pr-4 z-30 border-b-[1px] border-black'>
+    <div id="top" className='flex w-full h-[120px] justify-between items-end fixed bg-light7 text-black pl-8 pr-4 z-30 border-b-[1px] border-black'>
             
         {/* LEFT SIDE - NAME AND DECORATIVE TILE */}
         <Link href='/' className='flex flex-row items-end pb-4'>
