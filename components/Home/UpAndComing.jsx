@@ -15,6 +15,24 @@ export default function UpAndComing() {
         </div>
 
         <div className='flex flex-col items-center md:flex-row text-wrap w-full sm:w-[640px] md:w-full lg:w-[900px] xl:w-[1100px] md:h-[500px] mb-8 md:shadow-lg md:shadow-gray-500'>
+            <img src={'/creditImages/theHandThatRocksTheCradle.webp'} className='h-full w-full sm:w-[400px] md:w-[400px] object-cover shrink-0 object-bottom'/>
+            <div className='flex flex-col w-full sm:w-[400px] md:w-full h-full justify-center items-start p-4 sm:px-0 md:py-0 md:px-8 object-left-top'>
+                <div className='text-4xl font-semibold'>
+                    The Hand That Rocks the Cradle
+                </div>
+                <div className='pt-1 text-xl italic font-medium md:ml-4 font-barlow'>
+                    Solo Vocalist
+                </div>
+                <div className='pt-2 text-md italic md:ml-8 font-barlow'>
+                    <span className='font-bold'>IMDB: </span>An upscale suburban mom brings a new nanny, Polly Murphy, into her home, only to discover she is not the person she claims to be.
+                </div>
+                <div className='md:ml-8 text-sm pt-4 font-barlow'>
+                    Watch now on Hulu
+                </div>
+            </div>
+        </div>
+
+        <div className='flex flex-col items-center md:flex-row text-wrap w-full sm:w-[640px] md:w-full lg:w-[900px] xl:w-[1100px] md:h-[500px] mb-8 md:shadow-lg md:shadow-gray-500'>
             <img src={'/creditImages/inYourDreamsPoster.jpg'} className='h-full w-full sm:w-[400px] md:w-[400px] object-cover shrink-0 object-bottom'/>
             <div className='flex flex-col w-full sm:w-[400px] md:w-full h-full justify-center items-start p-4 sm:px-0 md:py-0 md:px-8 object-left-top'>
                 <div className='text-4xl font-semibold'>
