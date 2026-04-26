@@ -7659,6 +7659,7 @@ export const FeaturedMedia = {
         { title: "Barbra Streisand", img: '/creditImages/barbraStreisand.jpeg', roles: [r.Vocalist], notes: '', year: '', link: '' },
         { title: "Boz Scaggs", img: '/creditImages/bozScaggs.avif', roles: [r.Vocalist], notes: '', year: '', link: '' },
         { title: "Thomas Dolby", img: '/creditImages/thomasDolby.webp', roles: [r.Vocalist], notes: '', year: '', link: '' },
+        { title: "Awolnation", img: "/creditImages/Awolnation (1).jpg", roles: [r.Contractor, r.Vocalist], notes: '', year: '', link: ''},
         // { title: "Giant Steps", img: '/creditImages/', roles: [], notes: '', year: '', link: '' },
         { title: "Belinda Carlisle", img: '/creditImages/belindaCarlisle.avif', roles: [r.Vocalist], notes: '', year: '', link: '' },
         { title: "Giorgio Moroder", img: '/creditImages/giorgio2.webp', roles: [r.Soloist, r.Vocalist], notes: '', year: '', link: '' },

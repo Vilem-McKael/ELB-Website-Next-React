@@ -23,6 +23,18 @@ export const edieImages = [
         description: "With Mike Martin from Casio at the Namm Show in Anaheim",
     },
     {
+        image: "/edieImages/American Idol Sessions.JPG",
+        description: "After a session for Americal Idol"
+    },
+    {
+        image: "/edieImages/ELB Herb & Lani Alpert.JPG",
+        description: "With friends Herb & Lani Alpert"
+    },
+    {
+        image: "/edieImages/ELB Richard Carpenter.JPG",
+        description: "With Richard Carpenter"
+    },
+    {
         image: "/edieImages/edie3.jpeg",
         description: "Testing a Casio Privia at the Namm Show",
     },
