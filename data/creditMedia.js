@@ -7632,8 +7632,8 @@ export const FeaturedMedia = {
             link: ''
         },
         {
-            title: "Chicago",
-            img: '/creditImages/chicago.jpeg',
+            title: "Peter Cetera",
+            img: '/creditImages/peterCetera.png',
             roles: [r.Vocalist],
             notes: "",
             year: '',
